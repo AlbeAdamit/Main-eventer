@@ -29,3 +29,17 @@ section header div:nth-child(1) div:nth-child(1){
     border: solid white; 
     color: white;
 }
+footer{
+    background-image: url(https://raw.githubusercontent.com/AlbeAdamit/Main-eventer/main/images/swirl_pattern.png);
+    background-color: whitesmoke;
+    background-repeat: repeat;
+    text-align: center;
+    position: sticky;
+}
+.footer{
+    justify-content: space-between;
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    padding: 0 15px;
+}
