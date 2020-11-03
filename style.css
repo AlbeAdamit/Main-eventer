@@ -11,7 +11,14 @@ section header .boxPrincipale img{
 }
 section header .boxPrincipale h1{
     font-size: 40px;
-    border-bottom: solid;
-    border-color: red;
-    width: 300px;
+    text-decoration: underline;
+    text-decoration-color: red;  
+}
+section header div:nth-child(1) div:nth-child(1){
+    position: absolute;
+    background-color: red;
+    height: 50px;
+    margin-top: 50px;
+    border: solid white; 
+    color: white;
 }
