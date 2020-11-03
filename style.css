@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url("/fonts/Comfortaa-Regular.ttf");
+}
 
+html {
+    font-family: 'Comfortaa-Regular';
+}
 section header .boxPrincipale{
     display: flex;
     margin-left: 20%;
