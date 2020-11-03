@@ -47,15 +47,15 @@ section header div:nth-child(1) div:nth-child(1){
 
     display: flex;
     flex-direction: column;
+    
 }
 
 .form-fields {
     background-color: orange;
-    /* width: 350px;
-    height: 150px; */
+
 
     display: flex;
-    align-content: space-between;
+    /* justify-content: space-around; */
 }
 
 .name-mail {
@@ -63,6 +63,7 @@ section header div:nth-child(1) div:nth-child(1){
 
     display: flex;
     flex-direction: column;
+   
 }
 
 .lastname {
@@ -70,23 +71,36 @@ section header div:nth-child(1) div:nth-child(1){
 
     display: flex;
     flex-direction: column;
+    
 }
 
-.description-button {
+.box-descriptionButton {
     background-color: orangered;
     
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    
 }
 
+.description-button {
+    background-color: powderblue;
 
-/* .buttons {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* margin-left: 10%; */
+    width: 80%;
+}
+
+ .buttons {
+     background-color: purple;
     display: flex;
     justify-content: flex-end;
     max-width: 135px;
     max-height: 50;
 }
-
+/*
 #send {
     background-color: white;
     border: #af0102;
