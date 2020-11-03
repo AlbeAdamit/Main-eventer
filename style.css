@@ -29,3 +29,29 @@ section header div:nth-child(1) div:nth-child(1){
     border: solid white; 
     color: white;
 }
+
+/*Form section*/
+
+.section-form{
+    max-height: 710px;
+    max-width: 740px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 560px;
+    width: 50%;
+}
+
+.form-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-align {
+    display: flex;
+    flex-direction: column;
+}
