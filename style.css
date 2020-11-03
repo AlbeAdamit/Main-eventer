@@ -262,9 +262,9 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     border: #af0102;
 } */
 
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-}
+} */
 
