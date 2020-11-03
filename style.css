@@ -1,0 +1,17 @@
+
+section header .boxPrincipale{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 25%;
+    font-size: 20px;
+}
+section header .boxPrincipale img{
+    margin: 40px;
+    float: left;
+}
+section header .boxPrincipale h1{
+    font-size: 40px;
+    border-bottom: solid;
+    border-color: red;
+    width: 300px;
+}
