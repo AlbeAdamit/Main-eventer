@@ -56,6 +56,58 @@ section header div:nth-child(1) div:nth-child(1) {
     justify-content: center;
     padding-left: 5px;
 }
+/* Part 4 - About the events and the informations on them */
+article .ourEvents-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+article .ourEvents-header img{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+article .ourEvents-header h2{
+    border-bottom: #9A0000 2px solid;
+    font-size: xx-large;
+    
+}
+article .ourEvents-cards{
+    display: flex;
+    justify-content: center;
+}
+article .ourEvents-cards .cards{
+    border: 1px solid black;
+    margin: 2%;
+}
+article .ourEvents-cards .event-Type {
+    color: white;
+    background-color: #9A0000;
+    text-align: center;
+    padding: 5px;
+}
+article .ourEvents-cards .event-Month {
+    color: lightskyblue;
+    text-align: center;
+    padding: 5px;
+}
+article .ourEvents-cards .event-DateN {
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+article .ourEvents-cards .event-Name {
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+article .ourEvents-cards .event-Resume {
+    color: gray;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+}
+
+/* End of the part 4 */
 
 footer {
     background-image: url(https://raw.githubusercontent.com/AlbeAdamit/Main-eventer/main/images/swirl_pattern.png);
