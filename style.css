@@ -19,16 +19,17 @@ section header .boxPrincipale img{
     margin-bottom: 10px;
     float: left;
 }
-section header .boxPrincipale h1{
-    font-size: 32px;
+section header .boxPrincipale p:nth-child(1){
+    font-size: 38px;
     margin-bottom: 120px;
     margin-top: 70px;
     border-bottom: solid #9A0000;
     border-width: 5px;
-    width: 230px;
+    width: 250px;
     position: absolute;
     margin-left: 400px;
     padding-bottom: 15px;
+    color: black;
 }
 section header .boxPrincipale p{
     font-size: medium;
