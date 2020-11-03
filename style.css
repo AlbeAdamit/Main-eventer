@@ -6,7 +6,17 @@
 html {
     font-family: 'Comfortaa-Regular';
 }
-
+#titreWho{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 400px;
+    font-size: 40px;
+}
+#titreWhoSouligne{
+    border-bottom: solid #9A0000 4px;
+    padding: 15px;
+    width: 20px;
+}
 section header .boxPrincipale {
     display: flex;
     margin-left: 25%;
