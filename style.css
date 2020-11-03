@@ -70,19 +70,23 @@ article .ourEvents-header h2{
 article .ourEvents-cards{
     display: flex;
     justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 article .ourEvents-cards .cards{
-    border: 1px solid black;
+    width: 250px;
     margin: 2%;
+    box-shadow: 0px  5px 8px grey;
 }
 article .ourEvents-cards .event-Type {
-    color: white;
+    color: whitesmoke;
     background-color: #9A0000;
     text-align: center;
     padding: 5px;
+    font-size: large;
 }
 article .ourEvents-cards .event-Month {
-    color: lightskyblue;
+    color: rgb(82, 166, 250);
     text-align: center;
     padding: 5px;
 }
@@ -99,7 +103,7 @@ article .ourEvents-cards .event-Name {
 article .ourEvents-cards .event-Resume {
     color: gray;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
