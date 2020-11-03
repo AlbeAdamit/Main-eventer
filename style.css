@@ -109,11 +109,11 @@ section #boxTeam #coloneboxTeam div:nth-child(1) {
 .colone div{
     padding-right: 50px;
     text-align: start;
-    padding-left: 8px;
 }
 
 section #boxTeam #coloneboxTeam div:nth-child(2) {
     display: flex;
+    margin-left: 10px;
 }
 
 .radius {
@@ -121,10 +121,14 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     width: 130px;
 }
 .titreRouge{
-    text-align: center;
     background-color: brown;
-    width: 5px;
-    padding: 2px;
+    width: 0px;
+    height: 17px;
+    padding-top: 5px;
     font-size: small;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
