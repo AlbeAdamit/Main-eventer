@@ -6,7 +6,8 @@
 html {
     font-family: 'Comfortaa-Regular';
 }
-section header .boxPrincipale{
+
+section header .boxPrincipale {
     display: flex;
     margin-left: 25%;
     margin-right: 25%;
@@ -14,12 +15,13 @@ section header .boxPrincipale{
     font-size: 20px;
 }
 
-section header .boxPrincipale img{
+section header .boxPrincipale img {
     margin-right: 30px;
     margin-bottom: 10px;
     float: left;
 }
-section header .boxPrincipale p:nth-child(1){
+
+section header .boxPrincipale p:nth-child(1) {
     font-size: 38px;
     margin-bottom: 120px;
     margin-top: 70px;
@@ -31,18 +33,20 @@ section header .boxPrincipale p:nth-child(1){
     padding-bottom: 15px;
     color: black;
 }
-section header .boxPrincipale p{
+
+section header .boxPrincipale p {
     font-size: medium;
-    color : rgb(172, 169, 169);
+    color: rgb(172, 169, 169);
     margin-top: 180px;
 }
-section header div:nth-child(1) div:nth-child(1){
+
+section header div:nth-child(1) div:nth-child(1) {
     position: absolute;
     background-color: #9A0000;
     height: 50px;
     margin-top: 10px;
     margin-left: -50px;
-    border: solid white; 
+    border: solid white;
     color: white;
 
     width: 180px;
@@ -105,18 +109,78 @@ article .ourEvents-cards .event-Resume {
 
 /* End of the part 4 */
 
-footer{
+footer {
     background-image: url(https://raw.githubusercontent.com/AlbeAdamit/Main-eventer/main/images/swirl_pattern.png);
     background-color: whitesmoke;
     background-repeat: repeat;
     text-align: center;
     position: sticky;
 }
-.footer{
+
+.footer {
     justify-content: space-between;
     display: inline-block;
     list-style: none;
     align-items: center;
     padding: 0 15px;
 }
+#ourTeam{
+    text-align: center;
+}
+#ourTeam span{
+    font-size: 45px;
+    padding-bottom: 10px;
+    border-bottom: solid #9A0000 4px;
+}
+section #boxTeam {
+    margin-top: 80px;
+    margin-left: 22%;
+    margin-right: 15%;
+    display: flex;
 
+}
+
+section #boxTeam #coloneboxTeam {
+    display: flex;
+    flex-direction: column;
+
+}
+
+section #boxTeam #coloneboxTeam div:nth-child(1) {
+    display: flex;
+    margin: 10px;
+}
+
+.grey{
+    color : gray;
+}
+.colone {
+    display: flex;
+    flex-direction: column;
+}
+.colone div{
+    padding-right: 50px;
+    text-align: start;
+}
+
+section #boxTeam #coloneboxTeam div:nth-child(2) {
+    display: flex;
+    margin-left: 10px;
+}
+
+.radius {
+    border-radius: 200px;
+    width: 130px;
+}
+.titreRouge{
+    background-color: brown;
+    width: 0px;
+    height: 17px;
+    padding-top: 5px;
+    font-size: small;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
