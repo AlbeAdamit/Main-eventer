@@ -38,47 +38,51 @@
         <article>
             <!-- ourEvents -->
         </article>
+        <section>
+            <article class="form-box">
+                <!-- TODO: description size -->
 
-        <article>
-            <!-- TODO: description size -->
-
-            <!-- needAnEvent -->
-            <section class="section-form">
                 <h1>Need an Event?</h1>
-                <form action="" method="post">
-                    <div class=form-names>
+                <div class="form-content">
+                    <form action="" method="post">
 
-                        <div class="form-align">
-                            <!--Name-->
-                            <label for="name">Name *</label>
-                            <input id="name" type="text" name="name" required>
+                        <div class="form-fields">
+                            <div class="name-mail">
+                                <!--Name-->
+                                <label for="name">Name *</label>
+                                <input id="name" type="text" name="name" required>                                                    
+                            
+                                <!--E-mail *-->
+
+                                <label for="email">E-mail *</label>
+                                <input id="email" type="email" name="email" required>
+
+
+                            </div>
+
+                            <div class="lastname">
+                                <!--Lastname *-->
+                                <label for="lname">Last name *</label>
+                                <input id="lname" type="text" name="lname" required>
+                            </div>
+
+                            
                         </div>
+                        <div class="description-button">
+                            <!--Description / Pas de resize visible ?? -->
+                            <label for="description">Description</label>
+                            <textarea name="description"></textarea>
 
-                        <div class="form-align">
-                            <!--Lastname *-->
-                            <label for="lname">Last name *</label>
-                            <input id="lname" type="text" name="lname" required>
+                            <!--TODO: transition white to red + text color red to white-->
+                            <div class="buttons">
+                                <input id="send" type="submit" value="send">
+                            </div>
                         </div>
-
-                    </div>
-
-                    <!--E-mail *-->
-                    <div class="form-align">
-                        <label for="email">E-mail *</label>
-                        <input id="email" type="email" name="email" required>
-                    </div>
-                    <!--Description / Pas de resize visible ?? -->
-                    <label for="description">Description</label>
-                    <textarea name="description"></textarea>
-
-                    <!--Send button*2 -->
-                    <input id="send-white" type="submit" value="send">
-                    <!--Img flèche-->
-                    <input id="send-red" type="submit" value="send">
+                </div>
                 </form>
-            </section>
-        </article>
 
+            </article>
+        </section>
     </section>
 
 </body>

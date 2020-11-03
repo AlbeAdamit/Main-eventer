@@ -32,26 +32,62 @@ section header div:nth-child(1) div:nth-child(1){
 
 /*Form section*/
 
-.section-form{
-    max-height: 710px;
-    max-width: 740px;
+.form-box {
+    /* max-height: 710px;
+    max-width: 740px; */
+    margin-left: 20%;
+    margin-right: 25%;
+    background-color: gold;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 560px;
-    width: 50%;
-}
+.form-content {
+    background-color: tomato;
+    /* width: 350px;
+    height: 250px; */
 
-.form-names {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.form-align {
     display: flex;
     flex-direction: column;
 }
+
+.form-fields {
+    background-color: orange;
+    /* width: 350px;
+    height: 150px; */
+
+    display: flex;
+    align-content: space-between;
+}
+
+.name-mail {
+    background-color: lightskyblue;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.lastname {
+    background-color: mediumturquoise;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.description-button {
+    background-color: orangered;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .buttons {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 135px;
+    max-height: 50;
+}
+
+#send {
+    background-color: white;
+    border: #af0102;
+} */
