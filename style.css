@@ -180,7 +180,7 @@ footer {
     padding-bottom: 10px;
     border-bottom: solid #9A0000 4px;
 }
-section #boxTeam {
+#ourTeam #boxTeam {
     margin-top: 80px;
     margin-left: 22%;
     margin-right: 15%;
@@ -188,13 +188,13 @@ section #boxTeam {
 
 }
 
-section #boxTeam #coloneboxTeam {
+#ourTeam #boxTeam #coloneboxTeam {
     display: flex;
     flex-direction: column;
 
 }
 
-section #boxTeam #coloneboxTeam div:nth-child(1) {
+#ourTeam #boxTeam #coloneboxTeam div:nth-child(1) {
     display: flex;
     margin: 10px;
 }
