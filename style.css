@@ -235,20 +235,20 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
 /*Form section*/
 
 .form-box {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     font-weight: bold;
 }
 
 .formTitleBox{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    display: block;
+    width: fit-content;
 }
 
 .titleForm {
     display: block;
     width: fit-content;
+    align-self: flex-start;
     font-size: 45px;
     text-align: left;
 }
@@ -264,23 +264,25 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
 .form-content {
     display: flex;
     flex-direction: column;
+    align-self: flex-end;
 }
 
 .form-fields {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .name-mail {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 35%;
 }
  
 .lastname{
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 35%;
 }
 
 .description-box {
@@ -293,7 +295,7 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     margin-right: auto;
 }
 
- .buttons {
+ .button {
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
@@ -315,6 +317,7 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     justify-content: center;
     height: 30px;   
     color: #a00f0f;
+    background-color: white;
     transition-duration: 0.5s;
  } 
 
@@ -327,6 +330,10 @@ label {
     padding: 5px;
     font-family: 'Roboto', sans-serif;
     vertical-align: middle;
+}
+
+label span {
+    vertical-align: sub;
 }
 
 input[type=text] {

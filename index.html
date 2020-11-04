@@ -148,51 +148,49 @@
     </article>
 
     <article class="form-box">
-        <!-- TODO: description size -->
-        <div class="formTitleBox">
-            <h1 class="titleForm">Need an Event?</h1>
-            <span class="formTitleBar"></span>
-        </div>
+        <figcaption>
+            <div class="formTitleBox">
+                <h1 class="titleForm">Need an Event?</h1>
+                <span class="formTitleBar"></span>
+            </figcaption>
+            </div>
+            <figure>
+                <div class="form-content">
+                    <form action="" method="post">
+                        <div class="form-fields">
+                            <div class="name-mail">
+                                <!--Name-->
+                                <label for="name">Name <span>*</span></label>
+                                <input id="name" type="text" name="name" required>
 
-            <div class="form-content">
+                                <!--E-mail *-->
 
-        <div class=" form-content">
-            <form action="" method="post">
+                                <label for="email">E-mail <span>*</span></label>
+                                <input id="email" type="email" name="email" required>
 
+                            </div>
 
-                <div class="form-fields">
-                    <div class="name-mail">
-                        <!--Name-->
-                        <label for="name">Name *</label>
-                        <input id="name" type="text" name="name" required>
+                            <div class="lastname">
+                                <!--Lastname *-->
+                                <label for="lname">Last name <span>*</span></label>
+                                <input id="lname" type="text" name="lname" required>
+                            </div>
 
-                        <!--E-mail *-->
+                        </div>
 
-                        <label for="email">E-mail *</label>
-                        <input id="email" type="email" name="email" required>
+                        <div class="description-box">
+                            <!--Description-->
+                            <label for="description">Description</label>
+                            <textarea name="description"></textarea>
+                        </div>
 
-                    </div>
-
-                    <div class="lastname">
-                        <!--Lastname *-->
-                        <label for="lname">Last name *</label>
-                        <input id="lname" type="text" name="lname" required>
-                    </div>
-
+                        <div class="button">
+                            <input id="send" type="submit" value="SEND">
+                        </div>
                 </div>
-               
-                    <div class="description-box">
-                        <!--Description-->
-                        <label for="description">Description</label>
-                        <textarea name="description"></textarea>
-                    </div>
-
-                <div class="buttons">
-                    <input id="send" type="submit" value="SEND">
-                </div>
-        </div>
-        </form>
-
+                </form>
+            </figure>
+    
 
     </article>
 
