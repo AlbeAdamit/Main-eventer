@@ -17,11 +17,30 @@ header .accueuil-Eventer {
     margin-left: 1%;
     margin-right: 1%;
 }
-header .accueuil-Eventer .navbar-Accueuil p{
+header .accueuil-Eventer .navbar-Accueuil{
     display: flex;
     flex-direction: row;
-    padding-left: 60%;
-
+    background-color: violet;
+    height: 10%;
+}
+header .accueuil-Eventer .navbar-Accueuil p{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 10px;
+    align-self: flex-end;
+}
+header .accueuil-Eventer .logo-Accueuil{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+header .accueuil-Eventer .logo-Accueuil img{
+    height: 200px;
+    width: 300px;
+    margin-top: 40%;
+    align-items: center;
 }
 #titreWho{
     position: absolute;
