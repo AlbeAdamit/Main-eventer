@@ -6,7 +6,7 @@
 html {
     font-family: 'Comfortaa-Regular';
 }
-.testing .accueuil-Eventer {
+header .accueuil-Eventer {
     display: flex;
     flex-direction: row;
     background-image: url(./images/header_Background.jpg);
@@ -17,7 +17,7 @@ html {
     margin-left: 1%;
     margin-right: 1%;
 }
-.testing .accueuil-Eventer .navbar-Accueuil p{
+header .accueuil-Eventer .navbar-Accueuil p{
     display: flex;
     flex-direction: row;
     padding-left: 60%;
