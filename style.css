@@ -219,7 +219,7 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
 
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .name-mail {
