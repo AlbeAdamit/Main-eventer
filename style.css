@@ -47,11 +47,13 @@ header .accueuil-Eventer .navbar-Accueuil p{
     align-self: flex-end;
 }
 header .accueuil-Eventer .logo-Accueuil{
+    background-color: thistle;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-items: center;
 }
 header .accueuil-Eventer .logo-Accueuil img{
+    background-color: tomato;
     height: 200px;
     width: 300px;
     margin-top: 40%;
