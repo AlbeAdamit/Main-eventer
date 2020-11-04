@@ -318,78 +318,67 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
 /*Form section*/
 
 .form-box {
-    /* max-height: 710px;
-    max-width: 740px; */
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     font-weight: bold;
-    background-color: gold;
+}
+
+.formTitleBox{
+    display: block;
+    width: fit-content;
 }
 
 .titleForm {
-    border-bottom: #9A0000 5px solid;
+    display: block;
+    width: fit-content;
+    align-self: flex-start;
     font-size: 45px;
-    
     text-align: left;
 }
 
-.form-content {
-    background-color: tomato;
-    /* width: 350px;
-    height: 250px; */
+.titleForm::after {
+    content:'';
+    display: block;
+    background-color: #9A0000;
+    height: 4px;
+    width: 90%;
+} 
 
+.form-content {
     display: flex;
     flex-direction: column;
-    
+    align-self: flex-end;
 }
 
 .form-fields {
-    background-color: orange;
-
-
     display: flex;
     justify-content: space-between;
+    
 }
 
 .name-mail {
-    background-color: lightskyblue;
-
     display: flex;
     flex-direction: column;
-    
+    width: 35%;
 }
  
 .lastname{
-    background-color: mediumturquoise;
-
     display: flex;
     flex-direction: column;
-    
+    width: 35%;
 }
 
-.box-descriptionButton {
-    background-color: orangered;
-
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.description-button {
-    background-color: powderblue;
-
+.description-box {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-     /* margin-left: 10%; */
     width: 80%;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: auto;
 }
 
- .buttons {
-    background-color: purple;
+ .button {
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
@@ -406,11 +395,12 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     text-align: center;
     display: flex;
     flex-direction: row;
-    font-family: 'Comfortaa-Regular';
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     justify-content: center;
     height: 30px;   
     color: #a00f0f;
+    background-color: white;
     transition-duration: 0.5s;
  } 
 
@@ -421,25 +411,33 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
 
 label {
     padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+}
+
+label span {
+    vertical-align: sub;
 }
 
 input[type=text] {
     border: solid #a00f0f 1px;
     border-radius: 10px;
-    font-family: 'Comfortaa-Regular';
+    font-family: 'Roboto', sans-serif;
 }
 
 input[type=email] {
     border: solid #a00f0f 1px;
     border-radius: 10px;
-    font-family: 'Comfortaa-Regular';
+    font-family: 'Roboto', sans-serif;
 }
 
 textarea {
     border: solid #a00f0f 1px;
     border-radius: 10px;
     resize: none;
-    font-family: 'Comfortaa-Regular';
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    height: 150px;
 }
 
 
