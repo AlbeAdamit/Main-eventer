@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Comfortaa-Regular';
-    src: url("/fonts/Comfortaa-Regular.ttf");
+    src: url("./fonts/Comfortaa-Regular.ttf");
 }
 
 @media screen and (min-width: 1414px) {
