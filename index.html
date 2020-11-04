@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -152,6 +153,39 @@
     </article>
 
     <article class="form-box">
+
+        <figcaption>
+            <div class="formTitleBox">
+                <h1 class="titleForm">Need an Event?</h1>
+                <span class="formTitleBar"></span>
+            </figcaption>
+            </div>
+            <figure>
+                <div class="form-content">
+                    <form action="" method="post">
+                        <div class="form-fields">
+                            <div class="name-mail">
+                                <!--Name-->
+                                <label for="name">Name <span>*</span></label>
+                                <input id="name" type="text" name="name" required>
+
+                                <!--E-mail *-->
+
+                                <label for="email">E-mail <span>*</span></label>
+                                <input id="email" type="email" name="email" required>
+
+                            </div>
+
+                            <div class="lastname">
+                                <!--Lastname *-->
+                                <label for="lname">Last name <span>*</span></label>
+                                <input id="lname" type="text" name="lname" required>
+                            </div>
+
+                        </div>
+
+                        <div class="description-box">
+
         <!-- TODO: description size -->
         <div class="formTitleBox">
             <h1 class="titleForm">Need an Event?</h1>
@@ -186,10 +220,20 @@
                     </div>
                     <div class="box-descriptionButton">
                         <div class="description-button">
+
                             <!--Description-->
                             <label for="description">Description</label>
                             <textarea name="description"></textarea>
                         </div>
+
+
+                        <div class="button">
+                            <input id="send" type="submit" value="SEND">
+                        </div>
+                </div>
+                </form>
+            </figure>
+    
 
                         <!--TODO: transition white to red + text color red to white-->
 
@@ -201,6 +245,7 @@
                     </div>
             </div>
             </form>
+
 
 
     </article>
