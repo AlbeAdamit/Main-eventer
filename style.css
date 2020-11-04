@@ -6,9 +6,7 @@
 html {
     font-family: 'Comfortaa-Regular';
 }
-.classFlex{
-    margin-right: 20%;
-    margin-left: 20%;
+header .classFlex{
     display: flex;
     justify-content: space-around;
     background-image: url(./images/header_Background.jpg);
@@ -16,9 +14,15 @@ html {
     background-size: cover;
     background-position: center;
     height: 350px;
+    width: 100%;
+    filter: brightness(20%);
 }
 .classFlex div{
     width: 50%;
+}
+.classFlex img{
+    margin-left: 60%;
+    margin-top: 10%;
 }
 
 header .accueuil-Eventer {
@@ -35,28 +39,18 @@ header .accueuil-Eventer {
 header .accueuil-Eventer .navbar-Accueuil{
     display: flex;
     flex-direction: row;
-    background-color: violet;
-    height: 10%;
+    height: 12%;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 50px;
 }
-header .accueuil-Eventer .navbar-Accueuil p{
-    background-color: yellow;
+header .accueuil-Eventer .navbar-Accueuil li{
     display: flex;
     flex-direction: row;
     color: white;
-    margin: 10px;
+    margin-right: 10px;
     align-self: flex-end;
-}
-header .accueuil-Eventer .logo-Accueuil{
-    background-color: thistle;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-}
-header .accueuil-Eventer .logo-Accueuil img{
-    background-color: tomato;
-    height: 200px;
-    width: 300px;
-    margin-top: 40%;
+    padding-top: 10%;
 }
 #titreWho{
     position: absolute;
