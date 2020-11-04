@@ -11,7 +11,11 @@
     <section>
         <header>
             <!-- <h1>Main Eventers</h1> -->
+        <div class="classFlex">   
+            <div></div>
+            <div> <img src="./images/LOGO.png" alt=""></div>
             <div class="accueuil-Eventer">
+
                 <div class="navbar-Accueuil">
                     <p>About</p>
                     <p>Team</p>
@@ -19,9 +23,10 @@
                     <p>Nous contacter</p>
                 </div>
                 <div class="logo-Accueuil">
-                    <img src="./images/LOGO.png" alt="">
+
                 </div>
             </div>
+        </div> 
         </header>
     </section>
     <section>
@@ -153,49 +158,49 @@
             <span class="formTitleBar"></span>
         </div>
 
-            <div class="form-content">
+        <div class="form-content">
 
-        <div class=" form-content">
-            <form action="" method="post">
+            <div class=" form-content">
+                <form action="" method="post">
 
 
-                <div class="form-fields">
-                    <div class="name-mail">
-                        <!--Name-->
-                        <label for="name">Name *</label>
-                        <input id="name" type="text" name="name" required>
+                    <div class="form-fields">
+                        <div class="name-mail">
+                            <!--Name-->
+                            <label for="name">Name *</label>
+                            <input id="name" type="text" name="name" required>
 
-                        <!--E-mail *-->
+                            <!--E-mail *-->
 
-                        <label for="email">E-mail *</label>
-                        <input id="email" type="email" name="email" required>
+                            <label for="email">E-mail *</label>
+                            <input id="email" type="email" name="email" required>
+
+                        </div>
+
+                        <div class="lastname">
+                            <!--Lastname *-->
+                            <label for="lname">Last name *</label>
+                            <input id="lname" type="text" name="lname" required>
+                        </div>
+
+                    </div>
+                    <div class="box-descriptionButton">
+                        <div class="description-button">
+                            <!--Description-->
+                            <label for="description">Description</label>
+                            <textarea name="description"></textarea>
+                        </div>
+
+                        <!--TODO: transition white to red + text color red to white-->
+
 
                     </div>
 
-                    <div class="lastname">
-                        <!--Lastname *-->
-                        <label for="lname">Last name *</label>
-                        <input id="lname" type="text" name="lname" required>
+                    <div class="buttons">
+                        <input id="send" type="submit" value="SEND">
                     </div>
-
-                </div>
-                <div class="box-descriptionButton">
-                    <div class="description-button">
-                        <!--Description-->
-                        <label for="description">Description</label>
-                        <textarea name="description"></textarea>
-                    </div>
-
-                    <!--TODO: transition white to red + text color red to white-->
-
-
-                </div>
-
-                <div class="buttons">
-                    <input id="send" type="submit" value="SEND">
-                </div>
-        </div>
-        </form>
+            </div>
+            </form>
 
 
     </article>
