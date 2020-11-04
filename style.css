@@ -12,11 +12,16 @@ header .accueuil-Eventer {
     background-image: url(./images/header_Background.jpg);
     width: auto;
     height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1%;
+    margin-right: 1%;
 }
-.accueuil-Eventer .navbar-Accueuil{
+.accueuil-Eventer .navbar-Accueuil p{
     display: flex;
     flex-direction: row;
-    justify-self: center;
+    padding-left: 60%;
+
 }
 #titreWho{
     position: absolute;
