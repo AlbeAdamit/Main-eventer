@@ -2,6 +2,67 @@
     font-family: 'Comfortaa-Regular';
     src: url("/fonts/Comfortaa-Regular.ttf");
 }
+@media screen and (min-width: 1414px) {
+
+    body{
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    .colone div{
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 1135px) {
+
+    .colone div{
+        padding-right: 0px;
+    }
+    #ourTeam{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    #ourTeam #boxTeam {
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width: 646px) {
+
+    .colone div{
+        padding-right: 0px;
+    }
+    #ourTeam{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    #ourTeam #boxTeam {
+        flex-wrap: wrap;
+    }
+    article .ourEvents-cards{
+        margin-left: 0%;
+        margin-right: 0%;
+        flex-wrap: wrap;    
+    }
+    article .ourEvents-cards .cards{
+        box-shadow: 0px  5px 8px grey;
+    }
+  
+}
+@media screen and (max-width: 375px) {
+
+    .colone div{
+        padding-right: 0px;
+    }
+    #ourTeam{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    #ourTeam #boxTeam {
+        flex-wrap: wrap;
+    }
+    
+}
 
 html {
     font-family: 'Comfortaa-Regular';
@@ -61,21 +122,21 @@ header .accueuil-Eventer .navbar-Accueuil li{
     padding: 15px;
     width: 20px;
 }
-section header .boxPrincipale {
+.first .boxPrincipale {                  
+                                        /* LAAAAAAA__________________ */
     display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
+    /* margin-left: ;
+    margin-right: ; */
     padding: 50px;
     font-size: 20px;
 }
 
-section header .boxPrincipale img {
+.first  .boxPrincipale img {
     margin-right: 30px;
     margin-bottom: 10px;
     float: left;
 }
-
-section header .boxPrincipale p:nth-child(1) {
+.first  .boxPrincipale p:nth-child(1) {
     font-size: 38px;
     margin-bottom: 120px;
     margin-top: 70px;
@@ -88,13 +149,13 @@ section header .boxPrincipale p:nth-child(1) {
     color: black;
 }
 
-section header .boxPrincipale p {
+.first  .boxPrincipale p {
     font-size: medium;
     color: rgb(172, 169, 169);
     margin-top: 180px;
 }
 
-section header div:nth-child(1) div:nth-child(1) {
+.first  div:nth-child(1) div:nth-child(1) {
     position: absolute;
     background-color: #9A0000;
     height: 50px;
@@ -111,10 +172,12 @@ section header div:nth-child(1) div:nth-child(1) {
     padding-left: 5px;
 }
 /* Part 4 - About the events and the informations on them */
+/* _____________________________________________LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
 article .ourEvents-header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 article .ourEvents-header img{
     margin-left: 5%;
@@ -130,11 +193,15 @@ article .ourEvents-cards{
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
+    flex-wrap: wrap;
+    
 }
 article .ourEvents-cards .cards{
-    width: 250px;
+    width: 200px;
     margin: 2%;
     box-shadow: 0px  5px 8px grey;
+
+
 }
 article .ourEvents-cards .event-Type {
     color: whitesmoke;
@@ -184,29 +251,31 @@ footer {
 }
 #ourTeam{
     text-align: center;
+    
 }
 #ourTeam span{
     font-size: 45px;
     padding-bottom: 10px;
     border-bottom: solid #9A0000 4px;
+    
 }
-section #boxTeam {
+#ourTeam #boxTeam {
     margin-top: 80px;
-    margin-left: 22%;
-    margin-right: 15%;
+    /* margin-left: %;
+    margin-right: %;________________________________________LAAAAAAA*/                 
     display: flex;
-
+    
 }
 
-section #boxTeam #coloneboxTeam {
+#ourTeam #boxTeam #coloneboxTeam {
     display: flex;
     flex-direction: column;
-
 }
 
-section #boxTeam #coloneboxTeam div:nth-child(1) {
+#ourTeam #boxTeam #coloneboxTeam div:nth-child(1) {
     display: flex;
     margin: 10px;
+    
 }
 
 .grey{
@@ -215,20 +284,25 @@ section #boxTeam #coloneboxTeam div:nth-child(1) {
 .colone {
     display: flex;
     flex-direction: column;
+    
 }
 .colone div{
     padding-right: 50px;
     text-align: start;
+    
+    
 }
 
 section #boxTeam #coloneboxTeam div:nth-child(2) {
     display: flex;
     margin-left: 10px;
+    
 }
 
 .radius {
     border-radius: 200px;
-    width: 130px;
+    width: 100%;
+    height: auto;
 }
 .titreRouge{
     background-color: brown;
@@ -237,84 +311,136 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     padding-top: 5px;
     font-size: small;
     color: white;
+    
 
 }
 
 /*Form section*/
 
 .form-box {
-    /* max-height: 710px;
-    max-width: 740px; */
     margin-left: 20%;
-    margin-right: 25%;
-    background-color: gold;
+    margin-right: 20%;
+    font-weight: bold;
 }
 
-.form-content {
-    background-color: tomato;
-    /* width: 350px;
-    height: 250px; */
+.formTitleBox{
+    display: block;
+    width: fit-content;
+}
 
+.titleForm {
+    display: block;
+    width: fit-content;
+    align-self: flex-start;
+    font-size: 45px;
+    text-align: left;
+}
+
+.titleForm::after {
+    content:'';
+    display: block;
+    background-color: #9A0000;
+    height: 4px;
+    width: 90%;
+} 
+
+.form-content {
     display: flex;
     flex-direction: column;
-    
+    align-self: flex-end;
 }
 
 .form-fields {
-    background-color: orange;
-
-
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-between;
+    
 }
 
 .name-mail {
-    background-color: lightskyblue;
-
     display: flex;
     flex-direction: column;
-   
+    width: 35%;
 }
-
-.lastname {
-    background-color: mediumturquoise;
-
+ 
+.lastname{
     display: flex;
     flex-direction: column;
-    
+    width: 35%;
 }
 
-.box-descriptionButton {
-    background-color: orangered;
-    
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    
-}
-
-.description-button {
-    background-color: powderblue;
-
+.description-box {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-    /* margin-left: 10%; */
+    justify-content: flex-start;
     width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: auto;
 }
 
- .buttons {
-     background-color: purple;
+ .button {
     display: flex;
     justify-content: flex-end;
+    align-self: flex-end;
+    margin-left: auto;
     max-width: 135px;
     max-height: 50;
+    padding: 5px;
 }
-/*
+
 #send {
+    border: solid #a00f0f 0.5px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    height: 30px;   
+    color: #a00f0f;
     background-color: white;
-    border: #af0102;
-} */
+    transition-duration: 0.5s;
+ } 
+
+ #send:hover{
+    background-color: #a00f0f;
+    color: white;
+ }
+
+label {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+}
+
+label span {
+    vertical-align: sub;
+}
+
+input[type=text] {
+    border: solid #a00f0f 1px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=email] {
+    border: solid #a00f0f 1px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+    border: solid #a00f0f 1px;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    height: 150px;
+}
+
+
 
     /* display: flex;
     flex-direction: column;

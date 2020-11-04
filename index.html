@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <section>
         <header>
@@ -24,10 +26,10 @@
         </header>
     </section>
     <section>
-        <header>
+        <div class="first">
 
             <div class="boxPrincipale">
-                <div>Best people agency in Belgium</div>
+                <div id="titre">Best people agency in Belgium</div>
                 <div>
 
                     <img src="/images/imageBiere28.png" alt="Image de biere" srcset="">
@@ -40,19 +42,52 @@
                         know what I'm sayin'?I'm sayin'?ne into a glass motherfuckin' house, fuckin' up the way the
                         nigger talks.
                         Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker,
-                        know what I'm sayin'?r do that shit to me, he better paralyze my ass, 'cause I'll kill the
-                        motherfucker,
-                        know what I'm sayin'?I'm sayin'?ne into a glass motherfuckin' house, fuckin' up the way the
-                        nigger talks.
-                        Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker,
                         know what I'm sayin'?</p>
 
 
                 </div>
             </div>
 
-        </header>
+        </div>
     </section>
+    <article>
+        <!-- ourEvents -->
+        <div class="ourEvents-header">
+            <img src="./images/popImageClock.png" alt="Femme en robe rouge tenant un réveil">
+            <h2>Our Events</h2>
+            <img src="./images/PopimageBeer.png" alt="Femme en robe rouge tenant une biere">
+        </div>
+        <!-- Name and intels about the different events -->
+        <div class="ourEvents-cards">
+            <div class="cards">
+                <div class="event-Type">Salsa Course</div>
+                <div class="event-Month">Nov</div>
+                <div class="event-DateN">21TH</div>
+                <div class="event-Name">Latino night</div>
+                <div class="event-Resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam et, atque
+                    culpa explicabo odio est eius? Dolorum?</div>
+            </div>
+            <div class="cards">
+                <div class="event-Type">Christmas</div>
+                <div class="event-Month">Dec</div>
+                <div class="event-DateN">24TH</div>
+                <div class="event-Name">Christmas for refugees</div>
+                <div class="event-Resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis numquam
+                    facere quibusdam ipsum consectetur tenetur nihil neque.</div>
+            </div>
+            <div class="cards">
+                <div class="event-Type">Finance Research</div>
+                <div class="event-Month">Jan</div>
+                <div class="event-DateN">5TH</div>
+                <div class="event-Name">Financers drink</div>
+                <div class="event-Resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quas harum
+                    earum, nesciunt minima impedit voluptatum consectetur!</div>
+            </div>
+        </div>
+    </article>
+
+
+    </header>
     <section id="ourTeam">
         <span>Our Team...</span>
         <article id="boxTeam">
@@ -108,83 +143,105 @@
         </article>
     </section>
 
-
     <article>
         <!-- ourEvents -->
-        <div class="ourEvents-header">
-            <img src="./images/popImageClock.png" alt="Femme en robe rouge tenant un réveil">
-            <h2>Our Events</h2>
-            <img src="./images/PopimageBeer.png" alt="Femme en robe rouge tenant une biere">
-        </div>
-        <!-- Name and intels about the different events -->
-        <div class="ourEvents-cards">
-            <div class="cards">
-                <div class="event-Type">Salsa Course</div>
-                <div class="event-Month">Nov</div>
-                <div class="event-DateN">21TH</div>
-                <div class="event-Name">Latino night</div>
-                <div class="event-Resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam et, atque
-                    culpa explicabo odio est eius? Dolorum?</div>
-            </div>
-            <div class="cards">
-                <div class="event-Type">Christmas</div>
-                <div class="event-Month">Dec</div>
-                <div class="event-DateN">24TH</div>
-                <div class="event-Name">Christmas for refugees</div>
-                <div class="event-Resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis numquam
-                    facere quibusdam ipsum consectetur tenetur nihil neque.</div>
-            </div>
-            <div class="cards">
-                <div class="event-Type">Finance Research</div>
-                <div class="event-Month">Jan</div>
-                <div class="event-DateN">5TH</div>
-                <div class="event-Name">Financers drink</div>
-                <div class="event-Resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quas harum
-                    earum, nesciunt minima impedit voluptatum consectetur!</div>
-            </div>
-        </div>
     </article>
+
     <article class="form-box">
+
+        <figcaption>
+            <div class="formTitleBox">
+                <h1 class="titleForm">Need an Event?</h1>
+                <span class="formTitleBar"></span>
+            </figcaption>
+            </div>
+            <figure>
+                <div class="form-content">
+                    <form action="" method="post">
+                        <div class="form-fields">
+                            <div class="name-mail">
+                                <!--Name-->
+                                <label for="name">Name <span>*</span></label>
+                                <input id="name" type="text" name="name" required>
+
+                                <!--E-mail *-->
+
+                                <label for="email">E-mail <span>*</span></label>
+                                <input id="email" type="email" name="email" required>
+
+                            </div>
+
+                            <div class="lastname">
+                                <!--Lastname *-->
+                                <label for="lname">Last name <span>*</span></label>
+                                <input id="lname" type="text" name="lname" required>
+                            </div>
+
+                        </div>
+
+                        <div class="description-box">
+
         <!-- TODO: description size -->
+        <div class="formTitleBox">
+            <h1 class="titleForm">Need an Event?</h1>
+            <span class="formTitleBar"></span>
+        </div>
 
-        <h1>Need an Event?</h1>
         <div class="form-content">
-            <form action="" method="post">
 
-                <div class="form-fields">
-                    <div class="name-mail">
-                        <!--Name-->
-                        <label for="name">Name *</label>
-                        <input id="name" type="text" name="name" required>
+            <div class=" form-content">
+                <form action="" method="post">
 
-                        <!--E-mail *-->
 
-                        <label for="email">E-mail *</label>
-                        <input id="email" type="email" name="email" required>
+                    <div class="form-fields">
+                        <div class="name-mail">
+                            <!--Name-->
+                            <label for="name">Name *</label>
+                            <input id="name" type="text" name="name" required>
+
+                            <!--E-mail *-->
+
+                            <label for="email">E-mail *</label>
+                            <input id="email" type="email" name="email" required>
+
+                        </div>
+
+                        <div class="lastname">
+                            <!--Lastname *-->
+                            <label for="lname">Last name *</label>
+                            <input id="lname" type="text" name="lname" required>
+                        </div>
 
                     </div>
+                    <div class="box-descriptionButton">
+                        <div class="description-button">
 
-                    <div class="lastname">
-                        <!--Lastname *-->
-                        <label for="lname">Last name *</label>
-                        <input id="lname" type="text" name="lname" required>
-                    </div>
+                            <!--Description-->
+                            <label for="description">Description</label>
+                            <textarea name="description"></textarea>
+                        </div>
 
+
+                        <div class="button">
+                            <input id="send" type="submit" value="SEND">
+                        </div>
                 </div>
-                <div class="box-descriptionButton">
-                    <div class="description-button">
-                        <!--Description / Pas de resize visible ?? -->
-                        <label for="description">Description</label>
-                        <textarea name="description"></textarea>
+                </form>
+            </figure>
+    
 
                         <!--TODO: transition white to red + text color red to white-->
-                        <div class="buttons">
-                            <input id="send" type="submit" value="send">
-                        </div>
+
+
                     </div>
-                </div>
-        </div>
-        </form>
+
+                    <div class="buttons">
+                        <input id="send" type="submit" value="SEND">
+                    </div>
+            </div>
+            </form>
+
+
 
     </article>
 
