@@ -18,7 +18,7 @@ We also have to make it responsive, so it looks good on computers :computer: and
 
 Split structure : 
 
-![Structure](structure.png)
+![Structure](https://raw.githubusercontent.com/AlbeAdamit/Main-eventer/main/images/structure.png)
 
 ## What did we use ? 
 

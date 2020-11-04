@@ -175,7 +175,6 @@ html {
     background-position: center;
     height: 350px;
     width: 100%;
-    filter: brightness(20%);
 }
 
 .classFlex div {
