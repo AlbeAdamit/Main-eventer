@@ -19,12 +19,14 @@
         margin-bottom: 10px;
         float: left;
     }
+.cards{
+    width: 20%;
+}
 
-    /* _________________________ */
 
 }
 
-/* ___________________________________________________________________ */
+
 @media screen and (max-width: 1135px) {
 
 
@@ -34,7 +36,7 @@
     }
 
 
-
+}
 
 
 @media screen and (min-width: 830px) {
@@ -51,12 +53,9 @@
 
 }
 
-/* ___________________________________________________________________ */
+
 @media screen and (max-width: 830px) {
 
-    /* #titreWhoSouligne{
-        display: none;
-    }  */
     #titreWho {
         position: absolute;
         margin-top: 0px;
@@ -73,7 +72,6 @@
     }
 }
 
-/* ___________________________________________________________________ */
 @media screen and (max-width: 646px) {
 
     .colone div {
@@ -526,8 +524,3 @@ textarea {
 
 
 
-/* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-} */
