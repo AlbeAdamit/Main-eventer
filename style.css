@@ -6,6 +6,18 @@
 html {
     font-family: 'Comfortaa-Regular';
 }
+header .accueuil-Eventer {
+    display: flex;
+    flex-direction: row;
+    background-image: url(./images/header_Background.jpg);
+    width: auto;
+    height: 400px;
+}
+.accueuil-Eventer .navbar-Accueuil{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
 #titreWho{
     position: absolute;
     margin-top: 30px;
