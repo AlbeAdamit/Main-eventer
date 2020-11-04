@@ -11,7 +11,16 @@
     .colone div{
         padding-right: 0px;
     }
+    .first  .boxPrincipale img {
+        margin-right: 30px;
+        margin-bottom: 10px;
+        float: left;
+    }
 }
+article .ourEvents-cards .cards{
+    width: 200px;
+}
+/* ___________________________________________________________________ */
 @media screen and (max-width: 1135px) {
 
     .colone div{
@@ -24,10 +33,14 @@
     #ourTeam #boxTeam {
         flex-wrap: wrap;
     }
+    .first  .boxPrincipale img {
+        margin-right: 30px;
+        margin-bottom: 10px;
+        float: left;
+    }
     
 }
-
-@media screen and (max-width: 646px) {
+@media screen and (min-width: 830px) {
 
     .colone div{
         padding-right: 0px;
@@ -39,16 +52,63 @@
     #ourTeam #boxTeam {
         flex-wrap: wrap;
     }
+    .first  .boxPrincipale img {
+        margin-right: 30px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    
+}
+/* ___________________________________________________________________ */
+@media screen and (max-width: 830px) {
+    /* #titreWhoSouligne{
+        display: none;
+    }  */
+    #titreWho{
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 40px;
+        top: 330px;
+        width: 300px;
+        right: 10%;
+    }
+    .first  .boxPrincipale img {
+        float: none;
+        margin-bottom: -150px;
+    }
+}
+/* ___________________________________________________________________ */
+@media screen and (max-width: 646px) {
+
+    .colone div{
+        padding-right: 0px;
+    }
+    #ourTeam{
+        text-align: center;
+        flex-wrap: wrap;
+       
+    }
+    #ourTeam #boxTeam {
+        flex-wrap: wrap;
+       
+    }
     article .ourEvents-cards{
-        margin-left: 0%;
-        margin-right: 0%;
-        flex-wrap: wrap;    
+        margin-left: 50%;
+        margin-right: 50%;
+        flex-wrap: wrap;            
     }
     article .ourEvents-cards .cards{
         box-shadow: 0px  5px 8px grey;
     }
-  
+    .ourEvents-header img{
+        display: none;
+    }
+    article .ourEvents-cards .cards{
+        width: 100%;
+    }
 }
+/* ___________________________________________________________________ */
 @media screen and (max-width: 375px) {
 
     .colone div{
@@ -61,15 +121,21 @@
     #ourTeam #boxTeam {
         flex-wrap: wrap;
     }
+    #titreWho{
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 40px;
+        top: 330px;
+        width: 300px;
+        right: 10px;
+    }
     
 }
+/* ___________________________________________________________________ */
 
 html {
     font-family: 'Comfortaa-Regular';
-}
-body{
-    /* margin-left: 12%;
-    margin-right: 12%; */
 }
 .classFlex{
     display: flex;
@@ -79,9 +145,15 @@ body{
     background-size: cover;
     background-position: center;
     height: 350px;
+    width: 100%;
+    filter: brightness(20%);
 }
 .classFlex div{
     width: 50%;
+}
+.classFlex img{
+    margin-left: 60%;
+    margin-top: 10%;
 }
 
 header .accueuil-Eventer {
@@ -96,28 +168,18 @@ header .accueuil-Eventer {
 header .accueuil-Eventer .navbar-Accueuil{
     display: flex;
     flex-direction: row;
-    background-color: violet;
-    height: 10%;
+    height: 12%;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 50px;
 }
-header .accueuil-Eventer .navbar-Accueuil p{
-    background-color: yellow;
+header .accueuil-Eventer .navbar-Accueuil li{
     display: flex;
     flex-direction: row;
     color: white;
-    margin: 10px;
+    margin-right: 10px;
     align-self: flex-end;
-}
-header .accueuil-Eventer .logo-Accueuil{
-    background-color: thistle;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-}
-header .accueuil-Eventer .logo-Accueuil img{
-    background-color: tomato;
-    height: 200px;
-    width: 300px;
-    margin-top: 40%;
+    padding-top: 10%;
 }
 #titreWho{
     position: absolute;
@@ -131,19 +193,12 @@ header .accueuil-Eventer .logo-Accueuil img{
     width: 20px;
 }
 .first .boxPrincipale {                  
-                                        /* LAAAAAAA__________________ */
     display: flex;
-    /* margin-left: ;
-    margin-right: ; */
     padding: 50px;
     font-size: 20px;
 }
 
-.first  .boxPrincipale img {
-    margin-right: 30px;
-    margin-bottom: 10px;
-    float: left;
-}
+
 .first  .boxPrincipale p:nth-child(1) {
     font-size: 38px;
     margin-bottom: 120px;
@@ -199,13 +254,13 @@ article .ourEvents-header h2{
 article .ourEvents-cards{
     display: flex;
     justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
     flex-wrap: wrap;
     
 }
 article .ourEvents-cards .cards{
-    width: 200px;
+    /* width: 200px; */
     margin: 2%;
     box-shadow: 0px  5px 8px grey;
 
@@ -273,6 +328,7 @@ footer {
     margin-right: %;________________________________________LAAAAAAA*/                 
     display: flex;
     
+    
 }
 
 #ourTeam #boxTeam #coloneboxTeam {
@@ -282,8 +338,7 @@ footer {
 
 #ourTeam #boxTeam #coloneboxTeam div:nth-child(1) {
     display: flex;
-    margin: 10px;
-    
+    margin: 10px;  
 }
 
 .grey{
@@ -311,9 +366,6 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     border-radius: 200px;
     width: 100%;
     height: auto;
-}
-.ourteam img{
-    
 }
 .titreRouge{
     background-color: brown;
