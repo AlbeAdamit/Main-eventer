@@ -505,12 +505,16 @@ input[type=text] {
     border: solid #a00f0f 1px;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
+    outline: none;
+    padding: 2px 8px;
 }
 
 input[type=email] {
     border: solid #a00f0f 1px;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
+    outline: none;
+    padding: 2px 8px;
 }
 
 textarea {
@@ -520,6 +524,7 @@ textarea {
     outline: none;
     font-family: 'Roboto', sans-serif;
     height: 150px;
+    padding: 2px 8px;
 }
 
 
