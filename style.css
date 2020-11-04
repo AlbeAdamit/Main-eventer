@@ -2,18 +2,94 @@
     font-family: 'Comfortaa-Regular';
     src: url("/fonts/Comfortaa-Regular.ttf");
 }
+@media screen and (min-width: 1414px) {
+
+    body{
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    .colone div{
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 1135px) {
+
+    .colone div{
+        padding-right: 0px;
+    }
+    #ourTeam{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    #ourTeam #boxTeam {
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width: 646px) {
+
+    .colone div{
+        padding-right: 0px;
+    }
+    #ourTeam{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    #ourTeam #boxTeam {
+        flex-wrap: wrap;
+    }
+    article .ourEvents-cards{
+        margin-left: 0%;
+        margin-right: 0%;
+        flex-wrap: wrap;    
+    }
+    article .ourEvents-cards .cards{
+        box-shadow: 0px  5px 8px grey;
+    }
+  
+}
+@media screen and (max-width: 375px) {
+
+    .colone div{
+        padding-right: 0px;
+    }
+    #ourTeam{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    #ourTeam #boxTeam {
+        flex-wrap: wrap;
+    }
+    
+}
 
 html {
     font-family: 'Comfortaa-Regular';
 }
+body{
+    /* margin-left: 12%;
+    margin-right: 12%; */
+}
+.classFlex{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./images/header_Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+.classFlex div{
+    width: 50%;
+}
+
 header .accueuil-Eventer {
     display: flex;
     flex-direction: row;
-    background-image: url(./images/header_Background.jpg);
+    justify-content: center;
     width: auto;
     height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -54,10 +130,11 @@ header .accueuil-Eventer .logo-Accueuil img{
     padding: 15px;
     width: 20px;
 }
-.first .boxPrincipale {
+.first .boxPrincipale {                  
+                                        /* LAAAAAAA__________________ */
     display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
+    /* margin-left: ;
+    margin-right: ; */
     padding: 50px;
     font-size: 20px;
 }
@@ -103,10 +180,12 @@ header .accueuil-Eventer .logo-Accueuil img{
     padding-left: 5px;
 }
 /* Part 4 - About the events and the informations on them */
+/* _____________________________________________LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
 article .ourEvents-header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 article .ourEvents-header img{
     margin-left: 5%;
@@ -122,11 +201,15 @@ article .ourEvents-cards{
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
+    flex-wrap: wrap;
+    
 }
 article .ourEvents-cards .cards{
-    width: 250px;
+    width: 200px;
     margin: 2%;
     box-shadow: 0px  5px 8px grey;
+
+
 }
 article .ourEvents-cards .event-Type {
     color: whitesmoke;
@@ -176,29 +259,31 @@ footer {
 }
 #ourTeam{
     text-align: center;
+    
 }
 #ourTeam span{
     font-size: 45px;
     padding-bottom: 10px;
     border-bottom: solid #9A0000 4px;
+    
 }
 #ourTeam #boxTeam {
     margin-top: 80px;
-    margin-left: 22%;
-    margin-right: 15%;
+    /* margin-left: %;
+    margin-right: %;________________________________________LAAAAAAA*/                 
     display: flex;
-
+    
 }
 
 #ourTeam #boxTeam #coloneboxTeam {
     display: flex;
     flex-direction: column;
-
 }
 
 #ourTeam #boxTeam #coloneboxTeam div:nth-child(1) {
     display: flex;
     margin: 10px;
+    
 }
 
 .grey{
@@ -207,20 +292,28 @@ footer {
 .colone {
     display: flex;
     flex-direction: column;
+    
 }
 .colone div{
     padding-right: 50px;
     text-align: start;
+    
+    
 }
 
 section #boxTeam #coloneboxTeam div:nth-child(2) {
     display: flex;
     margin-left: 10px;
+    
 }
 
 .radius {
     border-radius: 200px;
-    width: 130px;
+    width: 100%;
+    height: auto;
+}
+.ourteam img{
+    
 }
 .titreRouge{
     background-color: brown;
@@ -229,6 +322,7 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     padding-top: 5px;
     font-size: small;
     color: white;
+    
 
 }
 
