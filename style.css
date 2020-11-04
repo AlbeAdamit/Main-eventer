@@ -11,7 +11,7 @@ header .accueuil-Eventer {
     flex-direction: row;
     background-image: url(./images/header_Background.jpg);
     width: auto;
-    height: 400px;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 1%;
@@ -40,7 +40,6 @@ header .accueuil-Eventer .logo-Accueuil img{
     height: 200px;
     width: 300px;
     margin-top: 40%;
-    align-items: center;
 }
 #titreWho{
     position: absolute;
