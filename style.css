@@ -191,9 +191,17 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
 .form-box {
     /* max-height: 710px;
     max-width: 740px; */
-    margin-left: 20%;
+    margin-left: 25%;
     margin-right: 25%;
+    font-weight: bold;
     background-color: gold;
+}
+
+.titleForm {
+    border-bottom: #9A0000 5px solid;
+    font-size: 45px;
+    
+    text-align: left;
 }
 
 .form-content {
@@ -211,31 +219,32 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
 
 
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
 }
 
 .name-mail {
     background-color: lightskyblue;
 
     display: flex;
-    flex-direction: column;
-   
-}
-
-.lastname {
+    flex-direction: row;
     background-color: mediumturquoise;
 
     display: flex;
     flex-direction: column;
     
 }
+ 
+.lastname{
+    display: flex;
+    flex-direction: column;
+}
 
 .box-descriptionButton {
     background-color: orangered;
-    
+
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: center;
     
 }
 
@@ -250,17 +259,59 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
 }
 
  .buttons {
-     background-color: purple;
+    background-color: purple;
     display: flex;
     justify-content: flex-end;
+    align-self: flex-end;
     max-width: 135px;
     max-height: 50;
 }
-/*
+
 #send {
-    background-color: white;
-    border: #af0102;
-} */
+    border: solid #a00f0f 0.5px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Comfortaa-Regular';
+    font-weight: bold;
+    justify-content: center;
+    height: 30px;   
+    color: #a00f0f;
+    transition-duration: 0.5s;
+ } 
+
+ #send:hover{
+    background-color: #a00f0f;
+    color: white;
+ }
+
+label {
+    padding: 5px;
+    
+}
+
+input[type=text] {
+    border: solid #a00f0f 1px;
+    border-radius: 10px;
+    font-family: 'Comfortaa-Regular';
+}
+
+input[type=email] {
+    border: solid #a00f0f 1px;
+    border-radius: 10px;
+    font-family: 'Comfortaa-Regular';
+}
+
+textarea {
+    border: solid #a00f0f 1px;
+    border-radius: 10px;
+    resize: none;
+    font-family: 'Comfortaa-Regular';
+}
+
+
 
     display: flex;
     flex-direction: column;
