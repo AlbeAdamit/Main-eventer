@@ -2,69 +2,83 @@
     font-family: 'Comfortaa-Regular';
     src: url("/fonts/Comfortaa-Regular.ttf");
 }
+
 @media screen and (min-width: 1414px) {
 
-    body{
+    body {
         margin-left: 12%;
         margin-right: 12%;
     }
-    .colone div{
+
+    .colone div {
         padding-right: 0px;
     }
-    .first  .boxPrincipale img {
+
+    .first .boxPrincipale img {
         margin-right: 30px;
         margin-bottom: 10px;
         float: left;
     }
 }
-article .ourEvents-cards .cards{
+
+article .ourEvents-cards .cards {
     width: 200px;
 }
+
 /* ___________________________________________________________________ */
 @media screen and (max-width: 1135px) {
 
-    .colone div{
+    .colone div {
         padding-right: 0px;
     }
-    #ourTeam{
+
+    #ourTeam {
         text-align: center;
         flex-wrap: wrap;
     }
+
     #ourTeam #boxTeam {
         flex-wrap: wrap;
     }
-    .first  .boxPrincipale img {
+
+    .first .boxPrincipale img {
         margin-right: 30px;
         margin-bottom: 10px;
         float: left;
     }
-    
+
 }
+
 @media screen and (min-width: 830px) {
 
-    .colone div{
+    .colone div {
         padding-right: 0px;
     }
-    #ourTeam{
+
+    #ourTeam {
         text-align: center;
         flex-wrap: wrap;
     }
+
     #ourTeam #boxTeam {
         flex-wrap: wrap;
     }
-    .first  .boxPrincipale img {
+
+    .first .boxPrincipale img {
         margin-right: 30px;
         margin-bottom: 10px;
         float: left;
     }
-    
+
 }
+
 /* ___________________________________________________________________ */
 @media screen and (max-width: 830px) {
+
     /* #titreWhoSouligne{
         display: none;
     }  */
-    #titreWho{
+    #titreWho {
         position: absolute;
         margin-top: 0px;
         margin-left: 0px;
@@ -73,55 +87,67 @@ article .ourEvents-cards .cards{
         width: 300px;
         right: 10%;
     }
-    .first  .boxPrincipale img {
+
+    .first .boxPrincipale img {
         float: none;
         margin-bottom: -150px;
     }
 }
+
 /* ___________________________________________________________________ */
 @media screen and (max-width: 646px) {
 
-    .colone div{
+    .colone div {
         padding-right: 0px;
     }
-    #ourTeam{
+
+    #ourTeam {
         text-align: center;
         flex-wrap: wrap;
-       
+
     }
+
     #ourTeam #boxTeam {
         flex-wrap: wrap;
-       
+
     }
-    article .ourEvents-cards{
+
+    article .ourEvents-cards {
         margin-left: 50%;
         margin-right: 50%;
-        flex-wrap: wrap;            
+        flex-wrap: wrap;
     }
-    article .ourEvents-cards .cards{
-        box-shadow: 0px  5px 8px grey;
+
+    article .ourEvents-cards .cards {
+        box-shadow: 0px 5px 8px grey;
     }
-    .ourEvents-header img{
+
+    .ourEvents-header img {
         display: none;
     }
-    article .ourEvents-cards .cards{
+
+    article .ourEvents-cards .cards {
         width: 100%;
     }
 }
+
 /* ___________________________________________________________________ */
 @media screen and (max-width: 375px) {
 
-    .colone div{
+    .colone div {
         padding-right: 0px;
     }
-    #ourTeam{
+
+    #ourTeam {
         text-align: center;
         flex-wrap: wrap;
     }
+
     #ourTeam #boxTeam {
         flex-wrap: wrap;
     }
-    #titreWho{
+
+    #titreWho {
         position: absolute;
         margin-top: 0px;
         margin-left: 0px;
@@ -130,32 +156,44 @@ article .ourEvents-cards .cards{
         width: 300px;
         right: 10px;
     }
-    
+
 }
+
 /* ___________________________________________________________________ */
 
 html {
     font-family: 'Comfortaa-Regular';
 }
-.classFlex{
+
+.header-container {
+    position: relative;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+}
+.header-background {
+    position: absolute;
     background-image: url(./images/header_Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 100%;
+    filter: brightness(20%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
 }
-.classFlex div{
+.logo {
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+.classFlex div {
     width: 50%;
 }
-.classFlex img{
-    margin-left: 60%;
-    margin-top: 10%;
-}
 
-header .accueuil-Eventer {
+.accueuil-eventer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -164,7 +202,16 @@ header .accueuil-Eventer {
     margin-left: 1%;
     margin-right: 1%;
 }
-header .accueuil-Eventer .navbar-Accueuil{
+.header-navigation{
+    z-index: 1;
+}
+.navbar-accueuil{
+    display: flex;
+    color: white;
+    list-style-type: none;
+}
+
+header .accueuil-Eventer .navbar-Accueuil {
     display: flex;
     flex-direction: row;
     height: 12%;
@@ -172,7 +219,8 @@ header .accueuil-Eventer .navbar-Accueuil{
     margin-top: 10px;
     margin-right: 50px;
 }
-header .accueuil-Eventer .navbar-Accueuil li{
+
+header .accueuil-Eventer .navbar-Accueuil li {
     display: flex;
     flex-direction: row;
     color: white;
@@ -180,25 +228,28 @@ header .accueuil-Eventer .navbar-Accueuil li{
     align-self: flex-end;
     padding-top: 10%;
 }
-#titreWho{
+
+#titreWho {
     position: absolute;
     margin-top: 30px;
     margin-left: 400px;
     font-size: 40px;
 }
-#titreWhoSouligne{
+
+#titreWhoSouligne {
     border-bottom: solid #9A0000 4px;
     padding: 15px;
     width: 20px;
 }
-.first .boxPrincipale {                  
+
+.first .boxPrincipale {
     display: flex;
     padding: 50px;
     font-size: 20px;
 }
 
 
-.first  .boxPrincipale p:nth-child(1) {
+.first .boxPrincipale p:nth-child(1) {
     font-size: 38px;
     margin-bottom: 120px;
     margin-top: 70px;
@@ -211,13 +262,13 @@ header .accueuil-Eventer .navbar-Accueuil li{
     color: black;
 }
 
-.first  .boxPrincipale p {
+.first .boxPrincipale p {
     font-size: medium;
     color: rgb(172, 169, 169);
     margin-top: 180px;
 }
 
-.first  div:nth-child(1) div:nth-child(1) {
+.first div:nth-child(1) div:nth-child(1) {
     position: absolute;
     background-color: #9A0000;
     height: 50px;
@@ -233,38 +284,44 @@ header .accueuil-Eventer .navbar-Accueuil li{
     justify-content: center;
     padding-left: 5px;
 }
+
 /* Part 4 - About the events and the informations on them */
 /* _____________________________________________LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
-article .ourEvents-header{
+article .ourEvents-header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+
 }
-article .ourEvents-header img{
+
+article .ourEvents-header img {
     margin-left: 5%;
     margin-right: 5%;
 }
-article .ourEvents-header h2{
+
+article .ourEvents-header h2 {
     border-bottom: #9A0000 2px solid;
     font-size: xx-large;
-    
+
 }
-article .ourEvents-cards{
+
+article .ourEvents-cards {
     display: flex;
     justify-content: center;
     margin-left: 1%;
     margin-right: 1%;
     flex-wrap: wrap;
-    
+
 }
-article .ourEvents-cards .cards{
+
+article .ourEvents-cards .cards {
     /* width: 200px; */
     margin: 2%;
-    box-shadow: 0px  5px 8px grey;
+    box-shadow: 0px 5px 8px grey;
 
 
 }
+
 article .ourEvents-cards .event-Type {
     color: whitesmoke;
     background-color: #9A0000;
@@ -272,21 +329,25 @@ article .ourEvents-cards .event-Type {
     padding: 5px;
     font-size: large;
 }
+
 article .ourEvents-cards .event-Month {
     color: rgb(82, 166, 250);
     text-align: center;
     padding: 5px;
 }
+
 article .ourEvents-cards .event-DateN {
     color: black;
     text-align: center;
     padding: 5px;
 }
+
 article .ourEvents-cards .event-Name {
     color: black;
     text-align: center;
     padding: 5px;
 }
+
 article .ourEvents-cards .event-Resume {
     color: gray;
     text-align: center;
@@ -311,23 +372,26 @@ footer {
     align-items: center;
     padding: 0 15px;
 }
-#ourTeam{
+
+#ourTeam {
     text-align: center;
-    
+
 }
-#ourTeam span{
+
+#ourTeam span {
     font-size: 45px;
     padding-bottom: 10px;
     border-bottom: solid #9A0000 4px;
-    
+
 }
+
 #ourTeam #boxTeam {
     margin-top: 80px;
     /* margin-left: %;
-    margin-right: %;________________________________________LAAAAAAA*/                 
+    margin-right: %;________________________________________LAAAAAAA*/
     display: flex;
-    
-    
+
+
 }
 
 #ourTeam #boxTeam #coloneboxTeam {
@@ -337,28 +401,30 @@ footer {
 
 #ourTeam #boxTeam #coloneboxTeam div:nth-child(1) {
     display: flex;
-    margin: 10px;  
+    margin: 10px;
 }
 
-.grey{
-    color : gray;
+.grey {
+    color: gray;
 }
+
 .colone {
     display: flex;
     flex-direction: column;
-    
+
 }
-.colone div{
+
+.colone div {
     padding-right: 50px;
     text-align: start;
-    
-    
+
+
 }
 
 section #boxTeam #coloneboxTeam div:nth-child(2) {
     display: flex;
     margin-left: 10px;
-    
+
 }
 
 .radius {
@@ -366,14 +432,15 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     width: 100%;
     height: auto;
 }
-.titreRouge{
+
+.titreRouge {
     background-color: brown;
     width: 0px;
     height: 17px;
     padding-top: 5px;
     font-size: small;
     color: white;
-    
+
 
 }
 
@@ -385,7 +452,7 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     font-weight: bold;
 }
 
-.formTitleBox{
+.formTitleBox {
     display: block;
     width: fit-content;
 }
@@ -399,12 +466,12 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
 }
 
 .titleForm::after {
-    content:'';
+    content: '';
     display: block;
     background-color: #9A0000;
     height: 4px;
     width: 90%;
-} 
+}
 
 .form-content {
     display: flex;
@@ -415,7 +482,7 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
 .form-fields {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .name-mail {
@@ -423,8 +490,8 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     flex-direction: column;
     width: 35%;
 }
- 
-.lastname{
+
+.lastname {
     display: flex;
     flex-direction: column;
     width: 35%;
@@ -440,7 +507,7 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     margin-right: auto;
 }
 
- .button {
+.button {
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
@@ -460,16 +527,16 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     justify-content: center;
-    height: 30px;   
+    height: 30px;
     color: #a00f0f;
     background-color: white;
     transition-duration: 0.5s;
- } 
+}
 
- #send:hover{
+#send:hover {
     background-color: #a00f0f;
     color: white;
- }
+}
 
 label {
     padding: 5px;
@@ -504,9 +571,8 @@ textarea {
 
 
 
-    /* display: flex;
+/* display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 } */
-
