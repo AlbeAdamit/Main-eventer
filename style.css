@@ -4,14 +4,14 @@
 }
 
 @media screen and (min-width: 1414px) {
-    .header-container {
+    .headerContainer {
         position: relative;
         display: flex;
         justify-content: space-around;
         width: 100%;
     }
 
-    .form-box {
+    .formBox {
         margin-left: 20%;
         margin-right: 20%;
         font-weight: bold;
@@ -63,14 +63,14 @@
         padding-top: 50px;
     }
 
-    .header-container {
+    .headerContainer {
         position: relative;
         display: flex;
         justify-content: space-around;
         width: 100%;
     }
 
-    .form-box {
+    .formBox {
         margin-left: 20%;
         margin-right: 20%;
         font-weight: bold;
@@ -109,7 +109,7 @@
 
 }
 @media screen and (max-width: 1259px) {
-    .navbar-accueuil {
+    .navbarAccueuil {
         position: absolute;
         display: flex;
         flex-direction: row;
@@ -123,7 +123,7 @@
 
 
 @media screen and (max-width: 1135px) {
-    .header-container {
+    .headerContainer {
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -150,11 +150,11 @@
 }
 
 @media screen and (max-width: 830px) {
-.header-container img{
+.headerContainer img{
     width: 200px;
     height: auto;
 }
-    .navbar-accueuil {
+    .navbarAccueuil {
 width: 00px;
     }
     #titreWho{
@@ -195,7 +195,7 @@ width: 00px;
         width: 100%;
     }
 
-    .form-box {
+    .formBox {
         margin-left: 0px;
         margin-right: 0px;
         font-weight: bold;
@@ -205,7 +205,7 @@ width: 00px;
 
 @media screen and (max-width: 646px) {
 
-    .form-box {
+    .formBox {
         margin-left: 0px;
         margin-right: 0px;
         font-weight: bold;
@@ -437,10 +437,6 @@ a {
     text-decoration: none;
 }
 
-
-}
-
-
 #titreWhoSouligne {
     border-bottom: solid #9A0000 4px;
     padding: 15px;
@@ -574,7 +570,7 @@ footer {
     align-items: center;
     padding: 0 15px;
 }
-.maineventers{
+.mainEventers{
     padding-top: 20px;
     color:black;
 }
