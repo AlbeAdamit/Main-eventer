@@ -33,7 +33,7 @@
     }
 }
 
-.textgrey {
+.textGrey {
     color: grey;
     padding-top: 20px;
     padding-right: 30px;
@@ -61,7 +61,7 @@
         width: 20%;
     }
 
-    .textgrey {
+    .textGrey {
         color: grey;
         padding-top: 20px;
         padding-right: 30px;
@@ -83,7 +83,7 @@
         flex-wrap: wrap;
     }
 
-    .textgrey {
+    .textGrey {
         padding-top: 20px;
         padding-right: 30px;
         padding-left: 10px;
@@ -112,14 +112,13 @@
         font-size: 40px;
         top: 330px;
         width: 300px;
-        right: %;
     }
 
     .first .boxPrincipale img {
         float: none;
         margin-bottom: -150px;
     }
-    article .ourEvents-cards .cards {
+    article .ourEventsCards .cards {
         width: 100%;
     }
 
@@ -131,7 +130,7 @@
         height: 10%;
     }
 
-    .textgrey {
+    .textGrey {
         width: 80%;
     }
 
@@ -149,7 +148,7 @@
         width: 300px;
         right: 1%;
     }
-    .ourEvents-header img{
+    .ourEventsHeader img{
         display: none;
     }
 }
@@ -194,15 +193,13 @@
     width: 45px;
     padding: 5px;
 }
-.ourEvents-header{
+.ourEventsHeader{
     display: none;
-}
-
 }
 
 /* ___________________________________________________________________ */
 @media screen and (max-width: 375px) {
-    .textgrey {
+    .textGrey {
         width: 250px;
     }
 
@@ -220,7 +217,7 @@
         width: 300px;
         right: 10px;
     }
-    .ourEvents-header{
+    .ourEventsHeader{
         display: none;
     }
 }
@@ -272,14 +269,14 @@ html {
     font-family: 'Comfortaa-Regular';
 }
 
-.header-container {
+.headerContainer {
     position: relative;
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
-.header-background {
+.headerBackground {
     position: absolute;
     background-image: url(./images/header_Background.jpg);
     background-repeat: no-repeat;
@@ -306,7 +303,7 @@ html {
     width: 50%;
 }
 
-.accueuil-eventer {
+.accueuilEventer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -314,17 +311,17 @@ html {
     margin-right: 1%;
 }
 
-.header-navigation {
+.headerNavigation {
     z-index: 1;
 }
 
-.navbar-accueuil {
+.navbarAccueuil {
     display: flex;
     color: white;
     list-style-type: none;
 }
 
-header .accueuil-eventer .navbar-accueuil {
+header .accueuilEventer .navbarAccueuil {
     display: flex;
     flex-direction: row;
     height: 12%;
@@ -332,13 +329,17 @@ header .accueuil-eventer .navbar-accueuil {
     margin-top: 10px;
 }
 
-header .accueuil-eventer .navbar-accueuil li {
+header .accueuilEventer .navbarAccueuil li {
     display: flex;
     flex-direction: row;
     color: white;
     margin-right: 10px;
     align-self: flex-end;
     padding-top: 10%;
+}
+a {
+    color: white;
+    text-decoration: none;
 }
 
 #titreWho {
@@ -351,7 +352,7 @@ header .accueuil-eventer .navbar-accueuil li {
 #titreWhoSouligne {
     border-bottom: solid #9A0000 4px;
     padding: 15px;
-    width: 20px;
+    width: 40px;
 }
 
 .first .boxPrincipale {
@@ -399,25 +400,25 @@ header .accueuil-eventer .navbar-accueuil li {
 
 /* Part 4 - About the events and the informations on them */
 /* _____________________________________________LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
-article .ourEvents-header {
+article .ourEventsHeader {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
 
-article .ourEvents-header img {
+article .ourEventsHeader img {
     margin-left: 5%;
     margin-right: 5%;
 }
 
-article .ourEvents-header .titre-ourevents {
+article .ourEventsHeader .titreOurEvents {
     border-bottom: #9A0000 2px solid;
     font-size: xx-large;
 
 }
 
-article .ourEvents-cards {
+article .ourEventsCards {
     display: flex;
     justify-content: center;
     margin-left: 1%;
@@ -426,7 +427,7 @@ article .ourEvents-cards {
 
 }
 
-article .ourEvents-cards .cards {
+article .ourEventsCards .cards {
     /* width: 200px; */
     margin: 2%;
     box-shadow: 0px 5px 8px grey;
@@ -434,7 +435,7 @@ article .ourEvents-cards .cards {
 
 }
 
-article .ourEvents-cards .event-Type {
+article .ourEventsCards .eventType {
     color: whitesmoke;
     background-color: #9A0000;
     text-align: center;
@@ -442,25 +443,25 @@ article .ourEvents-cards .event-Type {
     font-size: large;
 }
 
-article .ourEvents-cards .event-Month {
+article .ourEventsCards .eventMonth {
     color: rgb(82, 166, 250);
     text-align: center;
     padding: 5px;
 }
 
-article .ourEvents-cards .event-DateN {
+article .ourEventsCards .eventDateN {
     color: black;
     text-align: center;
     padding: 5px;
 }
 
-article .ourEvents-cards .event-Name {
+article .ourEventsCards .eventName {
     color: black;
     text-align: center;
     padding: 5px;
 }
 
-article .ourEvents-cards .event-Resume {
+article .ourEventsCards .eventResume {
     color: gray;
     text-align: center;
     padding: 20px;
@@ -505,7 +506,7 @@ footer {
 
 }
 
-section #boxTeam #coloneboxTeam div:nth-child(2) {
+section #boxTeam #coloneBoxTeam div:nth-child(2) {
     display: flex;
     margin-left: 10px;
 
@@ -530,7 +531,7 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
 
 /*Form section*/
 
-.form-box {
+.formBox {
     margin-left: 20%;
     margin-right: 20%;
     font-weight: bold;
@@ -557,31 +558,31 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     width: 90%;
 }
 
-.form-content {
+.formContent {
     display: flex;
     flex-direction: column;
     align-self: flex-end;
 }
 
-.form-fields {
+.formFields {
     display: flex;
     justify-content: space-between;
 
 }
 
-.name-mail {
+.nameMail {
     display: flex;
     flex-direction: column;
     width: 35%;
 }
 
-.lastname {
+.lastName {
     display: flex;
     flex-direction: column;
     width: 35%;
 }
 
-.description-box {
+.descriptionBox {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
