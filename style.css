@@ -93,6 +93,7 @@
         float: left;
     }
 
+
     #titreWho {
         position: absolute;
         margin-top: 0px;
@@ -107,8 +108,8 @@
         float: none;
         margin-bottom: -150px;
     }
-}
 
+}
 
 @media screen and (max-width: 646px) {
 
@@ -210,10 +211,6 @@ html {
 }
 
 
-  /*  display: flex;
-    justify-content: space-around;
-    width: 100%;
-}*/
 .header-background {
     position: absolute;
     background-image: url(./images/header_Background.jpg);
