@@ -16,7 +16,7 @@ We then created a Github Project to keep track with our own part of the project 
 All throughout this project, we pushed our modifications and commits on our Githhub repository, completed pull requests, merge requests and solved issues. 
 We also have to make it responsive, so it looks good on computers :computer: and on a phone :iphone: . 
 
-Split structure : 
+This is how we split the onepage to work on it as a team:
 
 ![Structure](https://raw.githubusercontent.com/AlbeAdamit/Main-eventer/main/images/structure.png)
 
