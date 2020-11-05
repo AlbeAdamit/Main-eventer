@@ -2,7 +2,7 @@
 
 This exerice was managed by [**Florian Bertchi**](https://github.com/Bruxellesflorian), [**Aurore Van Hoorebeke**](https://github.com/AuroreVanHoorebeke), [**Alexandre Albelice**](https://github.com/AlbeAdamit) and [**Bérengère Carpentier**](https://github.com/carpentierberengere).
 
-Begun with on the **3rd** of November 2020, and finished on the (*date soon to come*).
+Begun with on the **3rd** of November 2020, and finished on the ***05/11***.
 
 ## What was asked ?
 
@@ -28,4 +28,6 @@ This is how we split the onepage to work on it as a team:
 
 # What does it look like ? 
 
-:file_folder: *results soon to come* :file_folder:
+![preview](./preview.png)
+
+Click on this [**link**](https://albeadamit.github.io/Main-eventer/) to see the complete page ! 
