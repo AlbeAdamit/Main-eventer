@@ -411,7 +411,7 @@ article .ourEvents-header img {
     margin-right: 5%;
 }
 
-article .ourEvents-header h2 {
+article .ourEvents-header .titre-ourevents {
     border-bottom: #9A0000 2px solid;
     font-size: xx-large;
 
