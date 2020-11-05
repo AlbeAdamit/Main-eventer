@@ -22,6 +22,7 @@
 .cards{
     width: 20%;
 }
+}
 
 @media screen and (min-width: 830px) {
 
@@ -35,8 +36,6 @@
         margin-bottom: 10px;
         float: left;
     }
-
-}
 
     #titreWho {
         position: absolute;
@@ -98,6 +97,7 @@
         width: 300px;
         right: 10px;
     }
+}
 
 
 /* ___________________________________________________________________ */
@@ -143,7 +143,7 @@ html {
 }
 
 
-header .accueuil-Eventer .navbar-Accueuil {
+header .accueuil-eventer .navbar-Accueuil {
     display: flex;
     flex-direction: row;
     height: 12%;
@@ -152,7 +152,7 @@ header .accueuil-Eventer .navbar-Accueuil {
     margin-right: 50px;
 }
 
-header .accueuil-Eventer .navbar-Accueuil li {
+header .accueuil-eventer .navbar-accueuil li {
     display: flex;
     flex-direction: row;
     color: white;
