@@ -107,10 +107,10 @@ html {
 }
 
 
-    display: flex;
+  /*  display: flex;
     justify-content: space-around;
     width: 100%;
-}
+}*/
 .header-background {
     position: absolute;
     background-image: url(./images/header_Background.jpg);
@@ -472,6 +472,3 @@ textarea {
     font-family: 'Roboto', sans-serif;
     height: 150px;
 }
-
-
-
