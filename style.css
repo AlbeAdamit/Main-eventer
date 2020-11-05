@@ -21,6 +21,7 @@
 .cards{
     width: 20%;
 }
+}
 
 .textgrey {
     color: grey;
@@ -91,7 +92,6 @@
         margin-bottom: 10px;
         float: left;
     }
-
 
 
     #titreWho {
@@ -165,6 +165,7 @@
 }
 
 
+
 #titreOurTeam{
     font-size: 35px;
     text-align: center;
@@ -177,6 +178,7 @@
 .ourTeam {
     display: flex;
 }
+
 
 .imageTeam {
     width: 20%;
@@ -208,6 +210,7 @@ html {
     font-family: 'Comfortaa-Regular';
 }
 
+
 .header-background {
     position: absolute;
     background-image: url(./images/header_Background.jpg);
@@ -225,6 +228,7 @@ html {
     width: 200px;
     height: 200px;
     z-index: 1;
+    justify-content: center;
 }
 
 
@@ -239,7 +243,7 @@ html {
 }
 
 
-header .accueuil-Eventer .navbar-Accueuil {
+header .accueuil-eventer .navbar-Accueuil {
     display: flex;
     flex-direction: row;
     height: 12%;
@@ -248,7 +252,7 @@ header .accueuil-Eventer .navbar-Accueuil {
     margin-right: 50px;
 }
 
-header .accueuil-Eventer .navbar-Accueuil li {
+header .accueuil-eventer .navbar-accueuil li {
     display: flex;
     flex-direction: row;
     color: white;
@@ -568,6 +572,3 @@ textarea {
     font-family: 'Roboto', sans-serif;
     height: 150px;
 }
-
-
-
