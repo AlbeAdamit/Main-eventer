@@ -2,7 +2,6 @@
     font-family: 'Comfortaa-Regular';
     src: url("./fonts/Comfortaa-Regular.ttf");
 }
-
 @media screen and (min-width: 1414px) {
 
     body {
@@ -22,6 +21,63 @@
 .cards{
     width: 20%;
 }
+}
+
+.textgrey {
+    color: grey;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+
+}
+@media screen and (max-width: 1414px) {
+
+    body {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .colone div {
+        padding-right: 0px;
+    }
+
+    .first .boxPrincipale img {
+        margin-right: 30px;
+        margin-bottom: 10px;
+        float: left;
+    }
+.cards{
+    width: 20%;
+}
+
+.textgrey {
+    color: grey;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+
+}
+
+
+@media screen and (max-width: 1135px) {
+
+
+    .ourTeam {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+.textgrey {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+
 }
 
 @media screen and (min-width: 830px) {
@@ -56,6 +112,12 @@
 
 @media screen and (max-width: 646px) {
 
+    .flexTeam img{
+        height: 10%;
+    }
+    .textgrey{
+        width: 80%;
+    }
     .colone div {
         padding-right: 0px;
     }
@@ -82,7 +144,9 @@
 
 /* ___________________________________________________________________ */
 @media screen and (max-width: 375px) {
-
+    .textgrey{
+        width: 250px;
+    }
     .colone div {
         padding-right: 0px;
     }
@@ -99,6 +163,45 @@
     }
 }
 
+
+
+#titreOurTeam{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: solid #9A0000 4px;
+    width: 200px;
+    position: relative;
+    left: 45%;
+}
+.ourTeam {
+    display: flex;
+}
+
+
+.imageTeam {
+    width: 20%;
+    border-radius: 200px;
+    margin-bottom: 80px;
+}
+
+.flexTeam {
+    display: flex;
+}
+
+.ourTeamRow {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#rouge {
+    margin-left: 10px;
+    color: white;
+    background-color: #9A0000;
+    width: 45px;
+    padding: 5px;
+}
 
 /* ___________________________________________________________________ */
 
