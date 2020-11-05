@@ -53,8 +53,8 @@
 }
 
 @media screen and (max-width: 1414px) {
-    #titreWho { 
-  
+    #titreWho {
+
         position: absolute;
         left: 50%;
         font-size: 35px;
@@ -108,6 +108,7 @@
 
 
 }
+
 @media screen and (max-width: 1259px) {
     .navbarAccueuil {
         position: absolute;
@@ -150,16 +151,19 @@
 }
 
 @media screen and (max-width: 830px) {
-.headerContainer img{
-    width: 200px;
-    height: auto;
-}
-    .navbarAccueuil {
-width: 00px;
+    .headerContainer img {
+        width: 200px;
+        height: auto;
     }
-    #titreWho{
+
+    .navbarAccueuil {
+        width: 00px;
+    }
+
+    #titreWho {
         color: white;
     }
+
     .colone div {
         padding-right: 0px;
     }
@@ -238,7 +242,8 @@ width: 00px;
         width: 300px;
         right: 1%;
     }
-    .ourEventsHeader img{
+
+    .ourEventsHeader img {
         display: none;
     }
 }
@@ -284,7 +289,7 @@ width: 00px;
     padding: 5px;
 }
 
-.ourEventsHeader{
+.ourEventsHeader {
     display: none;
 }
 
@@ -309,7 +314,8 @@ width: 00px;
         width: 300px;
         right: 10px;
     }
-    .ourEventsHeader{
+
+    .ourEventsHeader {
         display: none;
     }
 }
@@ -422,11 +428,13 @@ header .accueuilEventer .navbarAccueuil li {
     padding-top: 10%;
 
 }
+
 a {
     color: white;
     text-decoration: none;
     transition-duration: 1s;
 }
+
 a:hover {
     color: red;
 }
@@ -445,8 +453,8 @@ a:hover {
 }
 
 
-#titreWho { 
-  
+#titreWho {
+
     position: absolute;
     left: 50%;
     font-size: 35px;
@@ -461,7 +469,7 @@ a:hover {
     padding-top: 100px;
 }
 
-#titreAgency{
+#titreAgency {
     position: absolute;
     background-color: #9A0000;
     height: 50px;
@@ -564,9 +572,10 @@ footer {
     align-items: center;
     padding: 0 15px;
 }
-.maineventers{
+
+.maineventers {
     padding-top: 20px;
-    color:black;
+    color: black;
 }
 
 
