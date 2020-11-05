@@ -340,7 +340,7 @@ article .ourEvents-header img {
     margin-right: 5%;
 }
 
-article .ourEvents-header h2 {
+article .ourEvents-header .titre-ourevents {
     border-bottom: #9A0000 2px solid;
     font-size: xx-large;
 
@@ -588,5 +588,4 @@ textarea {
     font-family: 'Roboto', sans-serif;
     height: 150px;
     padding: 2px 8px;
-}
 }
