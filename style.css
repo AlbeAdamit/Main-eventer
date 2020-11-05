@@ -90,6 +90,7 @@
         float: left;
     }
 
+
     #titreWho {
         position: absolute;
         margin-top: 0px;
@@ -104,8 +105,8 @@
         float: none;
         margin-bottom: -150px;
     }
-}
 
+}
 
 @media screen and (max-width: 646px) {
 
@@ -206,17 +207,13 @@ html {
     font-family: 'Comfortaa-Regular';
 }
 
-
-  /*  display: flex;
-    justify-content: space-around;
-    width: 100%;
-}*/
 .header-container {
     position: relative;
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
+
 .header-background {
     position: absolute;
     background-image: url(./images/header_Background.jpg);
@@ -541,10 +538,11 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     justify-content: center;
-    height: 30px;
+    height: 35px;
     color: #a00f0f;
     background-color: white;
     transition-duration: 0.5s;
+    margin-top: 10px;
 }
 
 #send:hover {
@@ -566,12 +564,18 @@ input[type=text] {
     border: solid #a00f0f 1px;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
+    outline: none;
+    padding: 2px 8px;
+    margin-bottom: 25px;
 }
 
 input[type=email] {
     border: solid #a00f0f 1px;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
+    outline: none;
+    padding: 2px 8px;
+    margin-bottom: 5px;
 }
 
 textarea {
@@ -581,4 +585,6 @@ textarea {
     outline: none;
     font-family: 'Roboto', sans-serif;
     height: 150px;
+    padding: 2px 8px;
+}
 }
