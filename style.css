@@ -2,6 +2,7 @@
     font-family: 'Comfortaa-Regular';
     src: url("./fonts/Comfortaa-Regular.ttf");
 }
+
 @media screen and (min-width: 1414px) {
 
     body {
@@ -13,14 +14,23 @@
         padding-right: 0px;
     }
 
+    .first .boxPrincipale {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
     .first .boxPrincipale img {
         margin-right: 30px;
         margin-bottom: 10px;
         float: left;
+
     }
-.cards{
-    width: 20%;
-}
+
+    .cards {
+        width: 20%;
+    }
 }
 
 .textgrey {
@@ -29,6 +39,7 @@
     padding-right: 30px;
     padding-left: 10px;
 }
+
 @media screen and (max-width: 1414px) {
 
     body {
@@ -45,39 +56,43 @@
         margin-bottom: 10px;
         float: left;
     }
-.cards{
-    width: 20%;
-}
 
-.textgrey {
-    color: grey;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 10px;
-}
+    .cards {
+        width: 20%;
+    }
+
+    .textgrey {
+        color: grey;
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-left: 10px;
+    }
 
 
 }
 
 
 @media screen and (max-width: 1135px) {
-
+    body {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 
     .ourTeam {
         display: flex;
         flex-wrap: wrap;
     }
-    
-.textgrey {
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 10px;
-}
+
+    .textgrey {
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-left: 10px;
+    }
 
 
 }
 
-@media screen and (min-width: 830px) {
+@media screen and (max-width: 830px) {
 
     .colone div {
         padding-right: 0px;
@@ -90,7 +105,6 @@
         float: left;
     }
 
-
     #titreWho {
         position: absolute;
         margin-top: 0px;
@@ -98,53 +112,100 @@
         font-size: 40px;
         top: 330px;
         width: 300px;
-        right: 10%;
+        right: %;
     }
 
     .first .boxPrincipale img {
         float: none;
         margin-bottom: -150px;
     }
+    article .ourEvents-cards .cards {
+        width: 100%;
+    }
 
 }
 
 @media screen and (max-width: 646px) {
 
-    .flexTeam img{
+    .flexTeam img {
         height: 10%;
     }
-    .textgrey{
+
+    .textgrey {
         width: 80%;
     }
+
     .colone div {
         padding-right: 0px;
     }
 
 
-    article .ourEvents-cards {
-        margin-left: 50%;
-        margin-right: 50%;
-        flex-wrap: wrap;
+    #titreWho {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 40px;
+        top: 180px;
+        width: 300px;
+        right: 1%;
     }
-
-    article .ourEvents-cards .cards {
-        box-shadow: 0px 5px 8px grey;
-    }
-
-    .ourEvents-header img {
+    .ourEvents-header img{
         display: none;
     }
+}
 
-    article .ourEvents-cards .cards {
-        width: 100%;
-    }
+
+
+#titreOurTeam {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: solid #9A0000 4px;
+    width: 200px;
+    position: relative;
+    left: 45%;
+}
+
+.ourTeam {
+    display: flex;
+}
+
+
+.imageTeam {
+    width: 20%;
+    border-radius: 200px;
+    margin-bottom: 80px;
+}
+
+.flexTeam {
+    display: flex;
+}
+
+.ourTeamRow {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#rouge {
+    margin-left: 10px;
+    color: white;
+    background-color: #9A0000;
+    width: 45px;
+    padding: 5px;
+}
+.ourEvents-header{
+    display: none;
+}
+
 }
 
 /* ___________________________________________________________________ */
 @media screen and (max-width: 375px) {
-    .textgrey{
+    .textgrey {
         width: 250px;
     }
+
     .colone div {
         padding-right: 0px;
     }
@@ -159,11 +220,14 @@
         width: 300px;
         right: 10px;
     }
+    .ourEvents-header{
+        display: none;
+    }
 }
 
 
 
-#titreOurTeam{
+#titreOurTeam {
     font-size: 35px;
     text-align: center;
     margin-bottom: 50px;
@@ -172,6 +236,7 @@
     position: relative;
     left: 45%;
 }
+
 .ourTeam {
     display: flex;
 }
@@ -227,6 +292,7 @@ html {
     right: 0;
     z-index: 0;
 }
+
 .logo {
     width: 250px;
     height: 200px;
@@ -235,9 +301,11 @@ html {
     margin-top: 3%;
     margin-bottom: 3%;
 }
+
 .classFlex div {
     width: 50%;
 }
+
 .accueuil-eventer {
     display: flex;
     flex-direction: row;
@@ -245,10 +313,12 @@ html {
     margin-left: 1%;
     margin-right: 1%;
 }
-.header-navigation{
+
+.header-navigation {
     z-index: 1;
 }
-.navbar-accueuil{
+
+.navbar-accueuil {
     display: flex;
     color: white;
     list-style-type: none;
@@ -261,6 +331,7 @@ header .accueuil-eventer .navbar-accueuil {
     width: 100%;
     margin-top: 10px;
 }
+
 header .accueuil-eventer .navbar-accueuil li {
     display: flex;
     flex-direction: row;
