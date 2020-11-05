@@ -531,10 +531,11 @@ section #boxTeam #coloneboxTeam div:nth-child(2) {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     justify-content: center;
-    height: 30px;
+    height: 35px;
     color: #a00f0f;
     background-color: white;
     transition-duration: 0.5s;
+    margin-top: 10px;
 }
 
 #send:hover {
@@ -556,12 +557,18 @@ input[type=text] {
     border: solid #a00f0f 1px;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
+    outline: none;
+    padding: 2px 8px;
+    margin-bottom: 25px;
 }
 
 input[type=email] {
     border: solid #a00f0f 1px;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
+    outline: none;
+    padding: 2px 8px;
+    margin-bottom: 5px;
 }
 
 textarea {
@@ -571,4 +578,6 @@ textarea {
     outline: none;
     font-family: 'Roboto', sans-serif;
     height: 150px;
+    padding: 2px 8px;
+}
 }
