@@ -10,11 +10,13 @@
         justify-content: space-around;
         width: 100%;
     }
+
     .form-box {
         margin-left: 20%;
         margin-right: 20%;
         font-weight: bold;
     }
+
     body {
         margin-left: 12%;
         margin-right: 12%;
@@ -51,17 +53,29 @@
 }
 
 @media screen and (max-width: 1414px) {
+    #titreWho { 
+  
+        position: absolute;
+        left: 50%;
+        font-size: 35px;
+        border-bottom: solid #9A0000 4px;
+        padding-bottom: 25px;
+        padding-top: 50px;
+    }
+
     .header-container {
         position: relative;
         display: flex;
         justify-content: space-around;
         width: 100%;
     }
+
     .form-box {
         margin-left: 20%;
         margin-right: 20%;
         font-weight: bold;
     }
+
     body {
         margin-left: 12%;
         margin-right: 12%;
@@ -87,8 +101,21 @@
         padding-right: 30px;
         padding-left: 10px;
     }
-    .boxPrincipale img{
+
+    .boxPrincipale img {
         width: 35%;
+    }
+
+
+}
+@media screen and (max-width: 1259px) {
+    .navbar-accueuil {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        list-style-type: none;
+        left: 10px;
     }
 
 
@@ -102,6 +129,7 @@
         justify-content: space-around;
         width: 98%;
     }
+
     body {
         margin-left: 0%;
         margin-right: 0%;
@@ -122,11 +150,21 @@
 }
 
 @media screen and (max-width: 830px) {
-
+.header-container img{
+    width: 200px;
+    height: auto;
+}
+    .navbar-accueuil {
+width: 00px;
+    }
+    #titreWho{
+        color: white;
+    }
     .colone div {
         padding-right: 0px;
     }
-    .boxPrincipale img{
+
+    .boxPrincipale img {
         width: 90%;
     }
 
@@ -137,23 +175,17 @@
         float: left;
     }
 
-    #titreWho {
-        position: absolute;
-        margin-top: 0px;
-        margin-left: 0px;
-        font-size: 40px;
-        top: 330px;
-        width: 300px;
-        right: %;
-    }
+
 
     .first .boxPrincipale img {
         float: none;
         margin-bottom: -150px;
     }
+
     article .ourEvents-cards .cards {
         width: 100%;
     }
+
     .form-box {
         margin-left: 0px;
         margin-right: 0px;
@@ -163,14 +195,17 @@
 }
 
 @media screen and (max-width: 646px) {
+
     .form-box {
         margin-left: 0px;
         margin-right: 0px;
         font-weight: bold;
     }
-    .boxPrincipale img{
+
+    .boxPrincipale img {
         width: 100%;
     }
+
     .flexTeam img {
         height: 10%;
     }
@@ -184,16 +219,7 @@
     }
 
 
-    #titreWho {
-        position: absolute;
-        margin-top: 0px;
-        margin-left: 0px;
-        font-size: 40px;
-        top: 180px;
-        width: 300px;
-        right: 1%;
-    }
-    .ourEvents-header img{
+    .ourEvents-header img {
         display: none;
     }
 }
@@ -238,17 +264,19 @@
     width: 45px;
     padding: 5px;
 }
-.ourEvents-header{
+
+.ourEvents-header {
     display: none;
 }
 
-}
+
 
 /* ___________________________________________________________________ */
 @media screen and (max-width: 375px) {
-    .boxPrincipale img{
+    .boxPrincipale img {
         width: 100%;
     }
+
     .textgrey {
         width: 250px;
     }
@@ -257,17 +285,7 @@
         padding-right: 0px;
     }
 
-
-    #titreWho {
-        position: absolute;
-        margin-top: 0px;
-        margin-left: 0px;
-        font-size: 40px;
-        top: 330px;
-        width: 300px;
-        right: 10px;
-    }
-    .ourEvents-header{
+    .ourEvents-header {
         display: none;
     }
 }
@@ -364,13 +382,13 @@ html {
     display: flex;
     color: white;
     list-style-type: none;
+    padding-right: 5%;
 }
 
 header .accueuil-eventer .navbar-accueuil {
     display: flex;
-    flex-direction: row;
     height: 12%;
-    width: 100%;
+    width: 500px;
     margin-top: 10px;
 }
 
@@ -381,20 +399,9 @@ header .accueuil-eventer .navbar-accueuil li {
     margin-right: 10px;
     align-self: flex-end;
     padding-top: 10%;
+
 }
 
-#titreWho {
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 400px;
-    font-size: 40px;
-}
-
-#titreWhoSouligne {
-    border-bottom: solid #9A0000 4px;
-    padding: 15px;
-    width: 20px;
-}
 
 .first .boxPrincipale {
     display: flex;
@@ -403,26 +410,23 @@ header .accueuil-eventer .navbar-accueuil li {
 }
 
 
-.first .boxPrincipale p:nth-child(1) {
-    font-size: 38px;
-    margin-bottom: 120px;
-    margin-top: 70px;
-    border-bottom: solid #9A0000;
-    border-width: 5px;
-    width:10% ;
+#titreWho { 
+  
     position: absolute;
-    margin-left: 400px;
-    padding-bottom: 15px;
-    color: black;
+    left: 50%;
+    font-size: 35px;
+    border-bottom: solid #9A0000 4px;
 }
 
 .first .boxPrincipale p {
+
     font-size: medium;
     color: rgb(172, 169, 169);
-    margin-top: 180px;
+    margin-top: 80px;
+    padding-top: 100px;
 }
 
-.first div:nth-child(1) div:nth-child(1) {
+#titre{
     position: absolute;
     background-color: #9A0000;
     height: 50px;
@@ -430,7 +434,6 @@ header .accueuil-eventer .navbar-accueuil li {
     margin-left: -50px;
     border: solid white;
     color: white;
-
     width: 180px;
     font-size: 16px;
     display: flex;
