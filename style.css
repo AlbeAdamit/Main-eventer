@@ -294,9 +294,12 @@ html {
 }
 
 .logo {
-    width: 200px;
+    width: 250px;
     height: 200px;
     z-index: 1;
+    margin-left: 35%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .classFlex div {
@@ -321,16 +324,15 @@ html {
     list-style-type: none;
 }
 
-header .accueuil-Eventer .navbar-Accueuil {
+header .accueuil-eventer .navbar-accueuil {
     display: flex;
     flex-direction: row;
     height: 12%;
     width: 100%;
     margin-top: 10px;
-    margin-right: 50px;
 }
 
-header .accueuil-Eventer .navbar-Accueuil li {
+header .accueuil-eventer .navbar-accueuil li {
     display: flex;
     flex-direction: row;
     color: white;
