@@ -276,7 +276,7 @@ width: 00px;
 }
 
 
-#rouge {
+.rouge {
     margin-left: 10px;
     color: white;
     background-color: #9A0000;
@@ -345,16 +345,6 @@ width: 00px;
     display: flex;
     flex-direction: column;
 }
-
-
-#rouge {
-    margin-left: 10px;
-    color: white;
-    background-color: #9A0000;
-    width: 45px;
-    padding: 5px;
-}
-
 
 
 html {
