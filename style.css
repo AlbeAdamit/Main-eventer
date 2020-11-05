@@ -23,27 +23,12 @@
     width: 20%;
 }
 
-
-}
-
-
-@media screen and (max-width: 1135px) {
-
-
-    .ourTeam {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-
-}
-
-
 @media screen and (min-width: 830px) {
 
     .colone div {
         padding-right: 0px;
     }
+
 
     .first .boxPrincipale img {
         margin-right: 30px;
@@ -52,9 +37,6 @@
     }
 
 }
-
-
-@media screen and (max-width: 830px) {
 
     #titreWho {
         position: absolute;
@@ -72,11 +54,13 @@
     }
 }
 
+
 @media screen and (max-width: 646px) {
 
     .colone div {
         padding-right: 0px;
     }
+
 
     article .ourEvents-cards {
         margin-left: 50%;
@@ -104,6 +88,7 @@
         padding-right: 0px;
     }
 
+
     #titreWho {
         position: absolute;
         margin-top: 0px;
@@ -114,49 +99,6 @@
         right: 10px;
     }
 
-}
-#titreOurTeam{
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 50px;
-    border-bottom: solid #9A0000 4px;
-    width: 200px;
-    position: relative;
-    left: 45%;
-}
-.ourTeam {
-    display: flex;
-}
-
-.imageTeam {
-    width: 20%;
-    border-radius: 200px;
-    margin-bottom: 80px;
-}
-
-.flexTeam {
-    display: flex;
-}
-
-.ourTeamRow {
-    display: flex;
-    flex-direction: column;
-}
-
-.textgrey {
-    color: grey;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 10px;
-}
-
-#rouge {
-    margin-left: 10px;
-    color: white;
-    background-color: #9A0000;
-    width: 45px;
-    padding: 5px;
-}
 
 /* ___________________________________________________________________ */
 
@@ -164,27 +106,32 @@ html {
     font-family: 'Comfortaa-Regular';
 }
 
-.classFlex {
+
     display: flex;
     justify-content: space-around;
+    width: 100%;
+}
+.header-background {
+    position: absolute;
     background-image: url(./images/header_Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 100%;
+    filter: brightness(20%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    z-index: 1;
 }
 
-.classFlex div {
-    width: 50%;
-}
 
-.classFlex img {
-    margin-left: 60%;
-    margin-top: 10%;
-}
-
-header .accueuil-Eventer {
+.accueuil-eventer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -193,6 +140,7 @@ header .accueuil-Eventer {
     margin-left: 1%;
     margin-right: 1%;
 }
+
 
 header .accueuil-Eventer .navbar-Accueuil {
     display: flex;
@@ -357,9 +305,11 @@ footer {
 }
 
 
+
 .grey {
     color: gray;
 }
+
 
 .colone {
     display: flex;
