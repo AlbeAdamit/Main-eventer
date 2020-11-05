@@ -388,7 +388,7 @@ html {
     width: 250px;
     height: 200px;
     z-index: 1;
-    margin-left: 35%;
+    margin-left: 45%;
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -435,6 +435,10 @@ header .accueuilEventer .navbarAccueuil li {
 a {
     color: white;
     text-decoration: none;
+    transition-duration: 1s;
+}
+a:hover {
+    color: red;
 }
 
 #titreWhoSouligne {
