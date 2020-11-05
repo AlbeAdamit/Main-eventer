@@ -188,6 +188,7 @@ html {
     width: 200px;
     height: 200px;
     z-index: 1;
+    justify-content: center;
 }
 .classFlex div {
     width: 50%;
