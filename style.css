@@ -660,10 +660,16 @@ section #boxTeam #coloneBoxTeam div:nth-child(2) {
 .formFields {
     display: flex;
     justify-content: space-between;
-
+    flex-wrap: wrap;
 }
 
-.nameMail {
+.nameField {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.emailField{
     display: flex;
     flex-direction: column;
     width: 35%;
