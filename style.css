@@ -355,6 +355,7 @@
 
 html {
     font-family: 'Comfortaa-Regular';
+    scroll-behavior: smooth;
 }
 
 
